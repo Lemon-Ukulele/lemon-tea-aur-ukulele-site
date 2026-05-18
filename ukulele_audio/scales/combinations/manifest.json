@@ -1,0 +1,9781 @@
+{
+  "generatedAt": "2026-05-18T10:56:26.198Z",
+  "sourceUrl": "https://ukebuddy.com/ukulele-scales-ub1",
+  "method": "fast-dom-sequence",
+  "keyCount": 12,
+  "typeCount": 22,
+  "comboCount": 264,
+  "renderedCount": 264,
+  "keys": [
+    "C",
+    "C#",
+    "D",
+    "D#",
+    "E",
+    "F",
+    "F#",
+    "G",
+    "G#",
+    "A",
+    "A#",
+    "B"
+  ],
+  "types": [
+    "major",
+    "minor",
+    "dorian",
+    "mixolydian",
+    "phrygian",
+    "lydian",
+    "locrian",
+    "harmonic-minor",
+    "melodic-minor",
+    "enigmatic",
+    "blues",
+    "major-pentatonic",
+    "minor-pentatonic",
+    "persian",
+    "hindu",
+    "arabic",
+    "egyptian",
+    "jewish",
+    "chinese",
+    "japanese",
+    "mongol",
+    "gypsy"
+  ],
+  "combinations": [
+    {
+      "key": "C",
+      "type": "major",
+      "eventCount": 8,
+      "outputFile": "C\\major\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "E3",
+          "delayMs": 360
+        },
+        {
+          "note": "F3",
+          "delayMs": 540
+        },
+        {
+          "note": "G3",
+          "delayMs": 720
+        },
+        {
+          "note": "A3",
+          "delayMs": 900
+        },
+        {
+          "note": "B3",
+          "delayMs": 1080
+        },
+        {
+          "note": "C4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "minor",
+      "eventCount": 8,
+      "outputFile": "C\\minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 360
+        },
+        {
+          "note": "F3",
+          "delayMs": 540
+        },
+        {
+          "note": "G3",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 900
+        },
+        {
+          "note": "As3",
+          "delayMs": 1080
+        },
+        {
+          "note": "C4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "dorian",
+      "eventCount": 8,
+      "outputFile": "C\\dorian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 360
+        },
+        {
+          "note": "F3",
+          "delayMs": 540
+        },
+        {
+          "note": "G3",
+          "delayMs": 720
+        },
+        {
+          "note": "A3",
+          "delayMs": 900
+        },
+        {
+          "note": "As3",
+          "delayMs": 1080
+        },
+        {
+          "note": "C4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "mixolydian",
+      "eventCount": 8,
+      "outputFile": "C\\mixolydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "E3",
+          "delayMs": 360
+        },
+        {
+          "note": "F3",
+          "delayMs": 540
+        },
+        {
+          "note": "G3",
+          "delayMs": 720
+        },
+        {
+          "note": "A3",
+          "delayMs": 900
+        },
+        {
+          "note": "As3",
+          "delayMs": 1080
+        },
+        {
+          "note": "C4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "phrygian",
+      "eventCount": 8,
+      "outputFile": "C\\phrygian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 360
+        },
+        {
+          "note": "F3",
+          "delayMs": 540
+        },
+        {
+          "note": "G3",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 900
+        },
+        {
+          "note": "As3",
+          "delayMs": 1080
+        },
+        {
+          "note": "C4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "lydian",
+      "eventCount": 8,
+      "outputFile": "C\\lydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "E3",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 540
+        },
+        {
+          "note": "G3",
+          "delayMs": 720
+        },
+        {
+          "note": "A3",
+          "delayMs": 900
+        },
+        {
+          "note": "B3",
+          "delayMs": 1080
+        },
+        {
+          "note": "C4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "locrian",
+      "eventCount": 8,
+      "outputFile": "C\\locrian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 360
+        },
+        {
+          "note": "F3",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 900
+        },
+        {
+          "note": "As3",
+          "delayMs": 1080
+        },
+        {
+          "note": "C4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "harmonic-minor",
+      "eventCount": 8,
+      "outputFile": "C\\harmonic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 360
+        },
+        {
+          "note": "F3",
+          "delayMs": 540
+        },
+        {
+          "note": "G3",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 900
+        },
+        {
+          "note": "B3",
+          "delayMs": 1080
+        },
+        {
+          "note": "C4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "melodic-minor",
+      "eventCount": 8,
+      "outputFile": "C\\melodic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 360
+        },
+        {
+          "note": "F3",
+          "delayMs": 540
+        },
+        {
+          "note": "G3",
+          "delayMs": 720
+        },
+        {
+          "note": "A3",
+          "delayMs": 900
+        },
+        {
+          "note": "B3",
+          "delayMs": 1080
+        },
+        {
+          "note": "C4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "enigmatic",
+      "eventCount": 8,
+      "outputFile": "C\\enigmatic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 180
+        },
+        {
+          "note": "E3",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 720
+        },
+        {
+          "note": "As3",
+          "delayMs": 900
+        },
+        {
+          "note": "B3",
+          "delayMs": 1080
+        },
+        {
+          "note": "C4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "blues",
+      "eventCount": 7,
+      "outputFile": "C\\blues\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 540
+        },
+        {
+          "note": "G3",
+          "delayMs": 720
+        },
+        {
+          "note": "As3",
+          "delayMs": 900
+        },
+        {
+          "note": "C4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "major-pentatonic",
+      "eventCount": 6,
+      "outputFile": "C\\major-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "E3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "minor-pentatonic",
+      "eventCount": 6,
+      "outputFile": "C\\minor-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "persian",
+      "eventCount": 8,
+      "outputFile": "C\\persian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 180
+        },
+        {
+          "note": "E3",
+          "delayMs": 360
+        },
+        {
+          "note": "F3",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 900
+        },
+        {
+          "note": "B3",
+          "delayMs": 1080
+        },
+        {
+          "note": "C4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "hindu",
+      "eventCount": 8,
+      "outputFile": "C\\hindu\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "E3",
+          "delayMs": 360
+        },
+        {
+          "note": "F3",
+          "delayMs": 540
+        },
+        {
+          "note": "G3",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 900
+        },
+        {
+          "note": "As3",
+          "delayMs": 1080
+        },
+        {
+          "note": "C4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "arabic",
+      "eventCount": 8,
+      "outputFile": "C\\arabic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "E3",
+          "delayMs": 360
+        },
+        {
+          "note": "F3",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 900
+        },
+        {
+          "note": "As3",
+          "delayMs": 1080
+        },
+        {
+          "note": "C4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "egyptian",
+      "eventCount": 6,
+      "outputFile": "C\\egyptian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "jewish",
+      "eventCount": 8,
+      "outputFile": "C\\jewish\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 180
+        },
+        {
+          "note": "E3",
+          "delayMs": 360
+        },
+        {
+          "note": "F3",
+          "delayMs": 540
+        },
+        {
+          "note": "G3",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 900
+        },
+        {
+          "note": "As3",
+          "delayMs": 1080
+        },
+        {
+          "note": "C4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "chinese",
+      "eventCount": 6,
+      "outputFile": "C\\chinese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "japanese",
+      "eventCount": 6,
+      "outputFile": "C\\japanese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "mongol",
+      "eventCount": 6,
+      "outputFile": "C\\mongol\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "E3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "gypsy",
+      "eventCount": 8,
+      "outputFile": "C\\gypsy\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "C3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 540
+        },
+        {
+          "note": "G3",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 900
+        },
+        {
+          "note": "As3",
+          "delayMs": 1080
+        },
+        {
+          "note": "C4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "major",
+      "eventCount": 8,
+      "outputFile": "Cs\\major\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 720
+        },
+        {
+          "note": "As3",
+          "delayMs": 900
+        },
+        {
+          "note": "C4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "minor",
+      "eventCount": 8,
+      "outputFile": "Cs\\minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "E3",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 720
+        },
+        {
+          "note": "A3",
+          "delayMs": 900
+        },
+        {
+          "note": "B3",
+          "delayMs": 1080
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "dorian",
+      "eventCount": 8,
+      "outputFile": "Cs\\dorian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "E3",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 720
+        },
+        {
+          "note": "As3",
+          "delayMs": 900
+        },
+        {
+          "note": "B3",
+          "delayMs": 1080
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "mixolydian",
+      "eventCount": 8,
+      "outputFile": "Cs\\mixolydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 720
+        },
+        {
+          "note": "As3",
+          "delayMs": 900
+        },
+        {
+          "note": "B3",
+          "delayMs": 1080
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "phrygian",
+      "eventCount": 8,
+      "outputFile": "Cs\\phrygian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "E3",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 720
+        },
+        {
+          "note": "A3",
+          "delayMs": 900
+        },
+        {
+          "note": "B3",
+          "delayMs": 1080
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "lydian",
+      "eventCount": 8,
+      "outputFile": "Cs\\lydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 720
+        },
+        {
+          "note": "As3",
+          "delayMs": 900
+        },
+        {
+          "note": "C4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "locrian",
+      "eventCount": 8,
+      "outputFile": "Cs\\locrian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "E3",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 540
+        },
+        {
+          "note": "G3",
+          "delayMs": 720
+        },
+        {
+          "note": "A3",
+          "delayMs": 900
+        },
+        {
+          "note": "B3",
+          "delayMs": 1080
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "harmonic-minor",
+      "eventCount": 8,
+      "outputFile": "Cs\\harmonic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "E3",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 720
+        },
+        {
+          "note": "A3",
+          "delayMs": 900
+        },
+        {
+          "note": "C4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "melodic-minor",
+      "eventCount": 8,
+      "outputFile": "Cs\\melodic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "E3",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 720
+        },
+        {
+          "note": "As3",
+          "delayMs": 900
+        },
+        {
+          "note": "C4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "enigmatic",
+      "eventCount": 8,
+      "outputFile": "Cs\\enigmatic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "B3",
+          "delayMs": 900
+        },
+        {
+          "note": "C4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "blues",
+      "eventCount": 7,
+      "outputFile": "Cs\\blues\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 720
+        },
+        {
+          "note": "B3",
+          "delayMs": 900
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "major-pentatonic",
+      "eventCount": 6,
+      "outputFile": "Cs\\major-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "minor-pentatonic",
+      "eventCount": 6,
+      "outputFile": "Cs\\minor-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "persian",
+      "eventCount": 8,
+      "outputFile": "Cs\\persian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 540
+        },
+        {
+          "note": "G3",
+          "delayMs": 720
+        },
+        {
+          "note": "A3",
+          "delayMs": 900
+        },
+        {
+          "note": "C4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "hindu",
+      "eventCount": 8,
+      "outputFile": "Cs\\hindu\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 720
+        },
+        {
+          "note": "A3",
+          "delayMs": 900
+        },
+        {
+          "note": "B3",
+          "delayMs": 1080
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "arabic",
+      "eventCount": 8,
+      "outputFile": "Cs\\arabic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 540
+        },
+        {
+          "note": "G3",
+          "delayMs": 720
+        },
+        {
+          "note": "A3",
+          "delayMs": 900
+        },
+        {
+          "note": "B3",
+          "delayMs": 1080
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "egyptian",
+      "eventCount": 6,
+      "outputFile": "Cs\\egyptian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "jewish",
+      "eventCount": 8,
+      "outputFile": "Cs\\jewish\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 720
+        },
+        {
+          "note": "A3",
+          "delayMs": 900
+        },
+        {
+          "note": "B3",
+          "delayMs": 1080
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "chinese",
+      "eventCount": 6,
+      "outputFile": "Cs\\chinese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "japanese",
+      "eventCount": 6,
+      "outputFile": "Cs\\japanese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "mongol",
+      "eventCount": 6,
+      "outputFile": "Cs\\mongol\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "gypsy",
+      "eventCount": 8,
+      "outputFile": "Cs\\gypsy\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "E3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 720
+        },
+        {
+          "note": "A3",
+          "delayMs": 900
+        },
+        {
+          "note": "B3",
+          "delayMs": 1080
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "major",
+      "eventCount": 8,
+      "outputFile": "D\\major\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "B3",
+          "delayMs": 900
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "D4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "minor",
+      "eventCount": 8,
+      "outputFile": "D\\minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "As3",
+          "delayMs": 900
+        },
+        {
+          "note": "C4",
+          "delayMs": 1080
+        },
+        {
+          "note": "D4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "dorian",
+      "eventCount": 8,
+      "outputFile": "D\\dorian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "B3",
+          "delayMs": 900
+        },
+        {
+          "note": "C4",
+          "delayMs": 1080
+        },
+        {
+          "note": "D4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "mixolydian",
+      "eventCount": 8,
+      "outputFile": "D\\mixolydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "B3",
+          "delayMs": 900
+        },
+        {
+          "note": "C4",
+          "delayMs": 1080
+        },
+        {
+          "note": "D4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "phrygian",
+      "eventCount": 8,
+      "outputFile": "D\\phrygian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "As3",
+          "delayMs": 900
+        },
+        {
+          "note": "C4",
+          "delayMs": 1080
+        },
+        {
+          "note": "D4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "lydian",
+      "eventCount": 8,
+      "outputFile": "D\\lydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "B3",
+          "delayMs": 900
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "D4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "locrian",
+      "eventCount": 8,
+      "outputFile": "D\\locrian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 720
+        },
+        {
+          "note": "As3",
+          "delayMs": 900
+        },
+        {
+          "note": "C4",
+          "delayMs": 1080
+        },
+        {
+          "note": "D4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "harmonic-minor",
+      "eventCount": 8,
+      "outputFile": "D\\harmonic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "As3",
+          "delayMs": 900
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "D4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "melodic-minor",
+      "eventCount": 8,
+      "outputFile": "D\\melodic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "B3",
+          "delayMs": 900
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "D4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "enigmatic",
+      "eventCount": 8,
+      "outputFile": "D\\enigmatic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "D4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "blues",
+      "eventCount": 7,
+      "outputFile": "D\\blues\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        },
+        {
+          "note": "D4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "major-pentatonic",
+      "eventCount": 6,
+      "outputFile": "D\\major-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "minor-pentatonic",
+      "eventCount": 6,
+      "outputFile": "D\\minor-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "persian",
+      "eventCount": 8,
+      "outputFile": "D\\persian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 720
+        },
+        {
+          "note": "As3",
+          "delayMs": 900
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "D4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "hindu",
+      "eventCount": 8,
+      "outputFile": "D\\hindu\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "As3",
+          "delayMs": 900
+        },
+        {
+          "note": "C4",
+          "delayMs": 1080
+        },
+        {
+          "note": "D4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "arabic",
+      "eventCount": 8,
+      "outputFile": "D\\arabic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 720
+        },
+        {
+          "note": "As3",
+          "delayMs": 900
+        },
+        {
+          "note": "C4",
+          "delayMs": 1080
+        },
+        {
+          "note": "D4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "egyptian",
+      "eventCount": 6,
+      "outputFile": "D\\egyptian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "jewish",
+      "eventCount": 8,
+      "outputFile": "D\\jewish\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "G3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "As3",
+          "delayMs": 900
+        },
+        {
+          "note": "C4",
+          "delayMs": 1080
+        },
+        {
+          "note": "D4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "chinese",
+      "eventCount": 6,
+      "outputFile": "D\\chinese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "japanese",
+      "eventCount": 6,
+      "outputFile": "D\\japanese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "mongol",
+      "eventCount": 6,
+      "outputFile": "D\\mongol\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "gypsy",
+      "eventCount": 8,
+      "outputFile": "D\\gypsy\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "D3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "F3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "As3",
+          "delayMs": 900
+        },
+        {
+          "note": "C4",
+          "delayMs": 1080
+        },
+        {
+          "note": "D4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "major",
+      "eventCount": 8,
+      "outputFile": "Ds\\major\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        },
+        {
+          "note": "D4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "minor",
+      "eventCount": 8,
+      "outputFile": "Ds\\minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "B3",
+          "delayMs": 900
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "dorian",
+      "eventCount": 8,
+      "outputFile": "Ds\\dorian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "mixolydian",
+      "eventCount": 8,
+      "outputFile": "Ds\\mixolydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "phrygian",
+      "eventCount": 8,
+      "outputFile": "Ds\\phrygian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "B3",
+          "delayMs": 900
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "lydian",
+      "eventCount": 8,
+      "outputFile": "Ds\\lydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        },
+        {
+          "note": "D4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "locrian",
+      "eventCount": 8,
+      "outputFile": "Ds\\locrian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "B3",
+          "delayMs": 900
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "harmonic-minor",
+      "eventCount": 8,
+      "outputFile": "Ds\\harmonic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "B3",
+          "delayMs": 900
+        },
+        {
+          "note": "D4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "melodic-minor",
+      "eventCount": 8,
+      "outputFile": "Ds\\melodic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        },
+        {
+          "note": "D4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "enigmatic",
+      "eventCount": 8,
+      "outputFile": "Ds\\enigmatic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        },
+        {
+          "note": "D4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "blues",
+      "eventCount": 7,
+      "outputFile": "Ds\\blues\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "major-pentatonic",
+      "eventCount": 6,
+      "outputFile": "Ds\\major-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "minor-pentatonic",
+      "eventCount": 6,
+      "outputFile": "Ds\\minor-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "persian",
+      "eventCount": 8,
+      "outputFile": "Ds\\persian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "B3",
+          "delayMs": 900
+        },
+        {
+          "note": "D4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "hindu",
+      "eventCount": 8,
+      "outputFile": "Ds\\hindu\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "B3",
+          "delayMs": 900
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "arabic",
+      "eventCount": 8,
+      "outputFile": "Ds\\arabic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "A3",
+          "delayMs": 720
+        },
+        {
+          "note": "B3",
+          "delayMs": 900
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "egyptian",
+      "eventCount": 6,
+      "outputFile": "Ds\\egyptian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "jewish",
+      "eventCount": 8,
+      "outputFile": "Ds\\jewish\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "B3",
+          "delayMs": 900
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "chinese",
+      "eventCount": 6,
+      "outputFile": "Ds\\chinese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "japanese",
+      "eventCount": 6,
+      "outputFile": "Ds\\japanese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "mongol",
+      "eventCount": 6,
+      "outputFile": "Ds\\mongol\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "gypsy",
+      "eventCount": 8,
+      "outputFile": "Ds\\gypsy\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "B3",
+          "delayMs": 900
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "major",
+      "eventCount": 8,
+      "outputFile": "E\\major\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1080
+        },
+        {
+          "note": "E4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "minor",
+      "eventCount": 8,
+      "outputFile": "E\\minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        },
+        {
+          "note": "D4",
+          "delayMs": 1080
+        },
+        {
+          "note": "E4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "dorian",
+      "eventCount": 8,
+      "outputFile": "E\\dorian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        },
+        {
+          "note": "D4",
+          "delayMs": 1080
+        },
+        {
+          "note": "E4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "mixolydian",
+      "eventCount": 8,
+      "outputFile": "E\\mixolydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        },
+        {
+          "note": "D4",
+          "delayMs": 1080
+        },
+        {
+          "note": "E4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "phrygian",
+      "eventCount": 8,
+      "outputFile": "E\\phrygian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        },
+        {
+          "note": "D4",
+          "delayMs": 1080
+        },
+        {
+          "note": "E4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "lydian",
+      "eventCount": 8,
+      "outputFile": "E\\lydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1080
+        },
+        {
+          "note": "E4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "locrian",
+      "eventCount": 8,
+      "outputFile": "E\\locrian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        },
+        {
+          "note": "D4",
+          "delayMs": 1080
+        },
+        {
+          "note": "E4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "harmonic-minor",
+      "eventCount": 8,
+      "outputFile": "E\\harmonic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1080
+        },
+        {
+          "note": "E4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "melodic-minor",
+      "eventCount": 8,
+      "outputFile": "E\\melodic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1080
+        },
+        {
+          "note": "E4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "enigmatic",
+      "eventCount": 8,
+      "outputFile": "E\\enigmatic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1080
+        },
+        {
+          "note": "E4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "blues",
+      "eventCount": 7,
+      "outputFile": "E\\blues\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        },
+        {
+          "note": "E4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "major-pentatonic",
+      "eventCount": 6,
+      "outputFile": "E\\major-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "minor-pentatonic",
+      "eventCount": 6,
+      "outputFile": "E\\minor-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "persian",
+      "eventCount": 8,
+      "outputFile": "E\\persian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1080
+        },
+        {
+          "note": "E4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "hindu",
+      "eventCount": 8,
+      "outputFile": "E\\hindu\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        },
+        {
+          "note": "D4",
+          "delayMs": 1080
+        },
+        {
+          "note": "E4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "arabic",
+      "eventCount": 8,
+      "outputFile": "E\\arabic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "As3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        },
+        {
+          "note": "D4",
+          "delayMs": 1080
+        },
+        {
+          "note": "E4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "egyptian",
+      "eventCount": 6,
+      "outputFile": "E\\egyptian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "jewish",
+      "eventCount": 8,
+      "outputFile": "E\\jewish\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "A3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        },
+        {
+          "note": "D4",
+          "delayMs": 1080
+        },
+        {
+          "note": "E4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "chinese",
+      "eventCount": 6,
+      "outputFile": "E\\chinese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "japanese",
+      "eventCount": 6,
+      "outputFile": "E\\japanese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "mongol",
+      "eventCount": 6,
+      "outputFile": "E\\mongol\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "gypsy",
+      "eventCount": 8,
+      "outputFile": "E\\gypsy\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "E3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "G3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "C4",
+          "delayMs": 900
+        },
+        {
+          "note": "D4",
+          "delayMs": 1080
+        },
+        {
+          "note": "E4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "major",
+      "eventCount": 8,
+      "outputFile": "F\\major\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        },
+        {
+          "note": "E4",
+          "delayMs": 1080
+        },
+        {
+          "note": "F4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "minor",
+      "eventCount": 8,
+      "outputFile": "F\\minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1080
+        },
+        {
+          "note": "F4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "dorian",
+      "eventCount": 8,
+      "outputFile": "F\\dorian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1080
+        },
+        {
+          "note": "F4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "mixolydian",
+      "eventCount": 8,
+      "outputFile": "F\\mixolydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1080
+        },
+        {
+          "note": "F4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "phrygian",
+      "eventCount": 8,
+      "outputFile": "F\\phrygian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1080
+        },
+        {
+          "note": "F4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "lydian",
+      "eventCount": 8,
+      "outputFile": "F\\lydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        },
+        {
+          "note": "E4",
+          "delayMs": 1080
+        },
+        {
+          "note": "F4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "locrian",
+      "eventCount": 8,
+      "outputFile": "F\\locrian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1080
+        },
+        {
+          "note": "F4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "harmonic-minor",
+      "eventCount": 8,
+      "outputFile": "F\\harmonic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        },
+        {
+          "note": "E4",
+          "delayMs": 1080
+        },
+        {
+          "note": "F4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "melodic-minor",
+      "eventCount": 8,
+      "outputFile": "F\\melodic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        },
+        {
+          "note": "E4",
+          "delayMs": 1080
+        },
+        {
+          "note": "F4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "enigmatic",
+      "eventCount": 8,
+      "outputFile": "F\\enigmatic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        },
+        {
+          "note": "E4",
+          "delayMs": 1080
+        },
+        {
+          "note": "F4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "blues",
+      "eventCount": 7,
+      "outputFile": "F\\blues\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        },
+        {
+          "note": "F4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "major-pentatonic",
+      "eventCount": 6,
+      "outputFile": "F\\major-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "minor-pentatonic",
+      "eventCount": 6,
+      "outputFile": "F\\minor-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "persian",
+      "eventCount": 8,
+      "outputFile": "F\\persian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        },
+        {
+          "note": "E4",
+          "delayMs": 1080
+        },
+        {
+          "note": "F4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "hindu",
+      "eventCount": 8,
+      "outputFile": "F\\hindu\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1080
+        },
+        {
+          "note": "F4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "arabic",
+      "eventCount": 8,
+      "outputFile": "F\\arabic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "B3",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1080
+        },
+        {
+          "note": "F4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "egyptian",
+      "eventCount": 6,
+      "outputFile": "F\\egyptian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "jewish",
+      "eventCount": 8,
+      "outputFile": "F\\jewish\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "As3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1080
+        },
+        {
+          "note": "F4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "chinese",
+      "eventCount": 6,
+      "outputFile": "F\\chinese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "japanese",
+      "eventCount": 6,
+      "outputFile": "F\\japanese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "mongol",
+      "eventCount": 6,
+      "outputFile": "F\\mongol\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "gypsy",
+      "eventCount": 8,
+      "outputFile": "F\\gypsy\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "F3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 1080
+        },
+        {
+          "note": "F4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "major",
+      "eventCount": 8,
+      "outputFile": "Fs\\major\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        },
+        {
+          "note": "F4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "minor",
+      "eventCount": 8,
+      "outputFile": "Fs\\minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        },
+        {
+          "note": "E4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "dorian",
+      "eventCount": 8,
+      "outputFile": "Fs\\dorian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        },
+        {
+          "note": "E4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "mixolydian",
+      "eventCount": 8,
+      "outputFile": "Fs\\mixolydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        },
+        {
+          "note": "E4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "phrygian",
+      "eventCount": 8,
+      "outputFile": "Fs\\phrygian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        },
+        {
+          "note": "E4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "lydian",
+      "eventCount": 8,
+      "outputFile": "Fs\\lydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        },
+        {
+          "note": "F4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "locrian",
+      "eventCount": 8,
+      "outputFile": "Fs\\locrian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        },
+        {
+          "note": "E4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "harmonic-minor",
+      "eventCount": 8,
+      "outputFile": "Fs\\harmonic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        },
+        {
+          "note": "F4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "melodic-minor",
+      "eventCount": 8,
+      "outputFile": "Fs\\melodic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        },
+        {
+          "note": "F4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "enigmatic",
+      "eventCount": 8,
+      "outputFile": "Fs\\enigmatic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        },
+        {
+          "note": "F4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "blues",
+      "eventCount": 7,
+      "outputFile": "Fs\\blues\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "major-pentatonic",
+      "eventCount": 6,
+      "outputFile": "Fs\\major-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "minor-pentatonic",
+      "eventCount": 6,
+      "outputFile": "Fs\\minor-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "persian",
+      "eventCount": 8,
+      "outputFile": "Fs\\persian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        },
+        {
+          "note": "F4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "hindu",
+      "eventCount": 8,
+      "outputFile": "Fs\\hindu\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        },
+        {
+          "note": "E4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "arabic",
+      "eventCount": 8,
+      "outputFile": "Fs\\arabic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "C4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        },
+        {
+          "note": "E4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "egyptian",
+      "eventCount": 6,
+      "outputFile": "Fs\\egyptian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "jewish",
+      "eventCount": 8,
+      "outputFile": "Fs\\jewish\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "B3",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        },
+        {
+          "note": "E4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "chinese",
+      "eventCount": 6,
+      "outputFile": "Fs\\chinese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "japanese",
+      "eventCount": 6,
+      "outputFile": "Fs\\japanese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "G3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "mongol",
+      "eventCount": 6,
+      "outputFile": "Fs\\mongol\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "gypsy",
+      "eventCount": 8,
+      "outputFile": "Fs\\gypsy\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Fs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "A3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "D4",
+          "delayMs": 900
+        },
+        {
+          "note": "E4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "major",
+      "eventCount": 8,
+      "outputFile": "G\\major\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "G4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "minor",
+      "eventCount": 8,
+      "outputFile": "G\\minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        },
+        {
+          "note": "F4",
+          "delayMs": 1080
+        },
+        {
+          "note": "G4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "dorian",
+      "eventCount": 8,
+      "outputFile": "G\\dorian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        },
+        {
+          "note": "F4",
+          "delayMs": 1080
+        },
+        {
+          "note": "G4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "mixolydian",
+      "eventCount": 8,
+      "outputFile": "G\\mixolydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        },
+        {
+          "note": "F4",
+          "delayMs": 1080
+        },
+        {
+          "note": "G4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "phrygian",
+      "eventCount": 8,
+      "outputFile": "G\\phrygian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        },
+        {
+          "note": "F4",
+          "delayMs": 1080
+        },
+        {
+          "note": "G4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "lydian",
+      "eventCount": 8,
+      "outputFile": "G\\lydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "G4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "locrian",
+      "eventCount": 8,
+      "outputFile": "G\\locrian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        },
+        {
+          "note": "F4",
+          "delayMs": 1080
+        },
+        {
+          "note": "G4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "harmonic-minor",
+      "eventCount": 8,
+      "outputFile": "G\\harmonic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "G4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "melodic-minor",
+      "eventCount": 8,
+      "outputFile": "G\\melodic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "G4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "enigmatic",
+      "eventCount": 8,
+      "outputFile": "G\\enigmatic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "G4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "blues",
+      "eventCount": 7,
+      "outputFile": "G\\blues\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        },
+        {
+          "note": "G4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "major-pentatonic",
+      "eventCount": 6,
+      "outputFile": "G\\major-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "minor-pentatonic",
+      "eventCount": 6,
+      "outputFile": "G\\minor-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "persian",
+      "eventCount": 8,
+      "outputFile": "G\\persian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "G4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "hindu",
+      "eventCount": 8,
+      "outputFile": "G\\hindu\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        },
+        {
+          "note": "F4",
+          "delayMs": 1080
+        },
+        {
+          "note": "G4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "arabic",
+      "eventCount": 8,
+      "outputFile": "G\\arabic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        },
+        {
+          "note": "F4",
+          "delayMs": 1080
+        },
+        {
+          "note": "G4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "egyptian",
+      "eventCount": 6,
+      "outputFile": "G\\egyptian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "jewish",
+      "eventCount": 8,
+      "outputFile": "G\\jewish\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "C4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        },
+        {
+          "note": "F4",
+          "delayMs": 1080
+        },
+        {
+          "note": "G4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "chinese",
+      "eventCount": 6,
+      "outputFile": "G\\chinese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "japanese",
+      "eventCount": 6,
+      "outputFile": "G\\japanese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "mongol",
+      "eventCount": 6,
+      "outputFile": "G\\mongol\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "gypsy",
+      "eventCount": 8,
+      "outputFile": "G\\gypsy\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "As3",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 900
+        },
+        {
+          "note": "F4",
+          "delayMs": 1080
+        },
+        {
+          "note": "G4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "major",
+      "eventCount": 8,
+      "outputFile": "Gs\\major\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        },
+        {
+          "note": "G4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "minor",
+      "eventCount": 8,
+      "outputFile": "Gs\\minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "dorian",
+      "eventCount": 8,
+      "outputFile": "Gs\\dorian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "mixolydian",
+      "eventCount": 8,
+      "outputFile": "Gs\\mixolydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "phrygian",
+      "eventCount": 8,
+      "outputFile": "Gs\\phrygian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "lydian",
+      "eventCount": 8,
+      "outputFile": "Gs\\lydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        },
+        {
+          "note": "G4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "locrian",
+      "eventCount": 8,
+      "outputFile": "Gs\\locrian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "harmonic-minor",
+      "eventCount": 8,
+      "outputFile": "Gs\\harmonic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        },
+        {
+          "note": "G4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "melodic-minor",
+      "eventCount": 8,
+      "outputFile": "Gs\\melodic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        },
+        {
+          "note": "G4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "enigmatic",
+      "eventCount": 8,
+      "outputFile": "Gs\\enigmatic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        },
+        {
+          "note": "G4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "blues",
+      "eventCount": 7,
+      "outputFile": "Gs\\blues\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "major-pentatonic",
+      "eventCount": 6,
+      "outputFile": "Gs\\major-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "minor-pentatonic",
+      "eventCount": 6,
+      "outputFile": "Gs\\minor-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "persian",
+      "eventCount": 8,
+      "outputFile": "Gs\\persian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        },
+        {
+          "note": "G4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "hindu",
+      "eventCount": 8,
+      "outputFile": "Gs\\hindu\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "arabic",
+      "eventCount": 8,
+      "outputFile": "Gs\\arabic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "D4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "egyptian",
+      "eventCount": 6,
+      "outputFile": "Gs\\egyptian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "jewish",
+      "eventCount": 8,
+      "outputFile": "Gs\\jewish\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "chinese",
+      "eventCount": 6,
+      "outputFile": "Gs\\chinese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "G4",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "japanese",
+      "eventCount": 6,
+      "outputFile": "Gs\\japanese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "A3",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "mongol",
+      "eventCount": 6,
+      "outputFile": "Gs\\mongol\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "gypsy",
+      "eventCount": 8,
+      "outputFile": "Gs\\gypsy\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "B3",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "E4",
+          "delayMs": 900
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "major",
+      "eventCount": 8,
+      "outputFile": "A\\major\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "A4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "minor",
+      "eventCount": 8,
+      "outputFile": "A\\minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        },
+        {
+          "note": "G4",
+          "delayMs": 1080
+        },
+        {
+          "note": "A4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "dorian",
+      "eventCount": 8,
+      "outputFile": "A\\dorian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        },
+        {
+          "note": "G4",
+          "delayMs": 1080
+        },
+        {
+          "note": "A4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "mixolydian",
+      "eventCount": 8,
+      "outputFile": "A\\mixolydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        },
+        {
+          "note": "G4",
+          "delayMs": 1080
+        },
+        {
+          "note": "A4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "phrygian",
+      "eventCount": 8,
+      "outputFile": "A\\phrygian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        },
+        {
+          "note": "G4",
+          "delayMs": 1080
+        },
+        {
+          "note": "A4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "lydian",
+      "eventCount": 8,
+      "outputFile": "A\\lydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "A4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "locrian",
+      "eventCount": 8,
+      "outputFile": "A\\locrian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        },
+        {
+          "note": "G4",
+          "delayMs": 1080
+        },
+        {
+          "note": "A4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "harmonic-minor",
+      "eventCount": 8,
+      "outputFile": "A\\harmonic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "A4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "melodic-minor",
+      "eventCount": 8,
+      "outputFile": "A\\melodic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "A4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "enigmatic",
+      "eventCount": 8,
+      "outputFile": "A\\enigmatic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "A4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "blues",
+      "eventCount": 7,
+      "outputFile": "A\\blues\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        },
+        {
+          "note": "A4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "major-pentatonic",
+      "eventCount": 6,
+      "outputFile": "A\\major-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "A4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "minor-pentatonic",
+      "eventCount": 6,
+      "outputFile": "A\\minor-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "G4",
+          "delayMs": 720
+        },
+        {
+          "note": "A4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "persian",
+      "eventCount": 8,
+      "outputFile": "A\\persian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1080
+        },
+        {
+          "note": "A4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "hindu",
+      "eventCount": 8,
+      "outputFile": "A\\hindu\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        },
+        {
+          "note": "G4",
+          "delayMs": 1080
+        },
+        {
+          "note": "A4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "arabic",
+      "eventCount": 8,
+      "outputFile": "A\\arabic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        },
+        {
+          "note": "G4",
+          "delayMs": 1080
+        },
+        {
+          "note": "A4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "egyptian",
+      "eventCount": 6,
+      "outputFile": "A\\egyptian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "G4",
+          "delayMs": 720
+        },
+        {
+          "note": "A4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "jewish",
+      "eventCount": 8,
+      "outputFile": "A\\jewish\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "D4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        },
+        {
+          "note": "G4",
+          "delayMs": 1080
+        },
+        {
+          "note": "A4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "chinese",
+      "eventCount": 6,
+      "outputFile": "A\\chinese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 720
+        },
+        {
+          "note": "A4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "japanese",
+      "eventCount": 6,
+      "outputFile": "A\\japanese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "As3",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "A4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "mongol",
+      "eventCount": 6,
+      "outputFile": "A\\mongol\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "A4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "gypsy",
+      "eventCount": 8,
+      "outputFile": "A\\gypsy\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "C4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "F4",
+          "delayMs": 900
+        },
+        {
+          "note": "G4",
+          "delayMs": 1080
+        },
+        {
+          "note": "A4",
+          "delayMs": 1260
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "major",
+      "eventCount": 7,
+      "outputFile": "As\\major\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        },
+        {
+          "note": "A4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "minor",
+      "eventCount": 7,
+      "outputFile": "As\\minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "dorian",
+      "eventCount": 7,
+      "outputFile": "As\\dorian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "mixolydian",
+      "eventCount": 7,
+      "outputFile": "As\\mixolydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "phrygian",
+      "eventCount": 7,
+      "outputFile": "As\\phrygian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "lydian",
+      "eventCount": 7,
+      "outputFile": "As\\lydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        },
+        {
+          "note": "A4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "locrian",
+      "eventCount": 7,
+      "outputFile": "As\\locrian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "harmonic-minor",
+      "eventCount": 7,
+      "outputFile": "As\\harmonic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        },
+        {
+          "note": "A4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "melodic-minor",
+      "eventCount": 7,
+      "outputFile": "As\\melodic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        },
+        {
+          "note": "A4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "enigmatic",
+      "eventCount": 7,
+      "outputFile": "As\\enigmatic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 900
+        },
+        {
+          "note": "A4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "blues",
+      "eventCount": 6,
+      "outputFile": "As\\blues\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "major-pentatonic",
+      "eventCount": 5,
+      "outputFile": "As\\major-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "F4",
+          "delayMs": 540
+        },
+        {
+          "note": "G4",
+          "delayMs": 720
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "minor-pentatonic",
+      "eventCount": 5,
+      "outputFile": "As\\minor-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 360
+        },
+        {
+          "note": "F4",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 720
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "persian",
+      "eventCount": 7,
+      "outputFile": "As\\persian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        },
+        {
+          "note": "A4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "hindu",
+      "eventCount": 7,
+      "outputFile": "As\\hindu\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "arabic",
+      "eventCount": 7,
+      "outputFile": "As\\arabic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "E4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "egyptian",
+      "eventCount": 5,
+      "outputFile": "As\\egyptian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 360
+        },
+        {
+          "note": "F4",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 720
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "jewish",
+      "eventCount": 7,
+      "outputFile": "As\\jewish\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "chinese",
+      "eventCount": 5,
+      "outputFile": "As\\chinese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "D4",
+          "delayMs": 180
+        },
+        {
+          "note": "E4",
+          "delayMs": 360
+        },
+        {
+          "note": "F4",
+          "delayMs": 540
+        },
+        {
+          "note": "A4",
+          "delayMs": 720
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "japanese",
+      "eventCount": 5,
+      "outputFile": "As\\japanese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "B3",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 360
+        },
+        {
+          "note": "F4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "mongol",
+      "eventCount": 5,
+      "outputFile": "As\\mongol\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "F4",
+          "delayMs": 540
+        },
+        {
+          "note": "G4",
+          "delayMs": 720
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "gypsy",
+      "eventCount": 7,
+      "outputFile": "As\\gypsy\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 900
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "major",
+      "eventCount": 6,
+      "outputFile": "B\\major\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "minor",
+      "eventCount": 7,
+      "outputFile": "B\\minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        },
+        {
+          "note": "A4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "dorian",
+      "eventCount": 7,
+      "outputFile": "B\\dorian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 900
+        },
+        {
+          "note": "A4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "mixolydian",
+      "eventCount": 7,
+      "outputFile": "B\\mixolydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 900
+        },
+        {
+          "note": "A4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "phrygian",
+      "eventCount": 7,
+      "outputFile": "B\\phrygian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        },
+        {
+          "note": "A4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "lydian",
+      "eventCount": 6,
+      "outputFile": "B\\lydian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 360
+        },
+        {
+          "note": "F4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "locrian",
+      "eventCount": 7,
+      "outputFile": "B\\locrian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        },
+        {
+          "note": "A4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "harmonic-minor",
+      "eventCount": 6,
+      "outputFile": "B\\harmonic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "melodic-minor",
+      "eventCount": 6,
+      "outputFile": "B\\melodic-minor\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "enigmatic",
+      "eventCount": 6,
+      "outputFile": "B\\enigmatic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 360
+        },
+        {
+          "note": "F4",
+          "delayMs": 540
+        },
+        {
+          "note": "G4",
+          "delayMs": 720
+        },
+        {
+          "note": "A4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "blues",
+      "eventCount": 6,
+      "outputFile": "B\\blues\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "D4",
+          "delayMs": 180
+        },
+        {
+          "note": "E4",
+          "delayMs": 360
+        },
+        {
+          "note": "F4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "A4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "major-pentatonic",
+      "eventCount": 5,
+      "outputFile": "B\\major-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 720
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "minor-pentatonic",
+      "eventCount": 5,
+      "outputFile": "B\\minor-pentatonic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "D4",
+          "delayMs": 180
+        },
+        {
+          "note": "E4",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 540
+        },
+        {
+          "note": "A4",
+          "delayMs": 720
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "persian",
+      "eventCount": 6,
+      "outputFile": "B\\persian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "hindu",
+      "eventCount": 7,
+      "outputFile": "B\\hindu\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        },
+        {
+          "note": "A4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "arabic",
+      "eventCount": 7,
+      "outputFile": "B\\arabic\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "F4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        },
+        {
+          "note": "A4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "egyptian",
+      "eventCount": 5,
+      "outputFile": "B\\egyptian\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 180
+        },
+        {
+          "note": "E4",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 540
+        },
+        {
+          "note": "A4",
+          "delayMs": 720
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "jewish",
+      "eventCount": 7,
+      "outputFile": "B\\jewish\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 360
+        },
+        {
+          "note": "E4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        },
+        {
+          "note": "A4",
+          "delayMs": 1080
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "chinese",
+      "eventCount": 4,
+      "outputFile": "B\\chinese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 180
+        },
+        {
+          "note": "F4",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 540
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "japanese",
+      "eventCount": 5,
+      "outputFile": "B\\japanese\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "C4",
+          "delayMs": 180
+        },
+        {
+          "note": "E4",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 540
+        },
+        {
+          "note": "G4",
+          "delayMs": 720
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "mongol",
+      "eventCount": 5,
+      "outputFile": "B\\mongol\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 180
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 360
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 540
+        },
+        {
+          "note": "Gs4",
+          "delayMs": 720
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "gypsy",
+      "eventCount": 7,
+      "outputFile": "B\\gypsy\\play.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 180
+        },
+        {
+          "note": "D4",
+          "delayMs": 360
+        },
+        {
+          "note": "F4",
+          "delayMs": 540
+        },
+        {
+          "note": "Fs4",
+          "delayMs": 720
+        },
+        {
+          "note": "G4",
+          "delayMs": 900
+        },
+        {
+          "note": "A4",
+          "delayMs": 1080
+        }
+      ]
+    }
+  ]
+}

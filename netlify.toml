@@ -1,0 +1,23 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/analyze"
+  to = "/.netlify/functions/analyze"
+  status = 200
+
+[[redirects]]
+  from = "/api/arrange"
+  to = "/.netlify/functions/arrange"
+  status = 200
+
+[[redirects]]
+  from = "/api/lesson-plan"
+  to = "/.netlify/functions/lesson-plan"
+  status = 200
+
+[[redirects]]
+  from = "/api/health"
+  to = "/.netlify/functions/health"
+  status = 200

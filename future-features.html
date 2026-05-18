@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Future Features | Lemon Tea Aur Ukulele</title>
+  <meta name="description" content="Future roadmap and advanced features for Lemon Tea Aur Ukulele." />
+  <style>
+    :root {
+      --bg: #fdf7ec;
+      --card: #fffdf8;
+      --text: #2f2a22;
+      --muted: #6d6355;
+      --accent: #d98b2d;
+      --line: #ead9c1;
+      --chip: #fff2de;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Segoe UI", "Trebuchet MS", sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.55;
+    }
+    .wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 18px 42px;
+    }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+    .btn {
+      text-decoration: none;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-weight: 700;
+      color: var(--text);
+      background: #fff;
+    }
+    .btn:hover { border-color: var(--accent); }
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(70, 45, 14, 0.06);
+      padding: 18px;
+      margin-bottom: 12px;
+    }
+    h1, h2 {
+      margin: 0;
+    }
+    h1 { font-size: clamp(1.4rem, 3.2vw, 2rem); }
+    h2 { font-size: 1.06rem; }
+    .sub {
+      margin: 8px 0 0;
+      color: var(--muted);
+    }
+    .grid {
+      margin-top: 12px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      background: #fff;
+    }
+    .card p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .timeline {
+      display: grid;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .dual {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .subcard {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      background: #fff;
+    }
+    .label {
+      display: inline-block;
+      font-size: 0.74rem;
+      color: #6f5d48;
+      border: 1px solid #ecd8bc;
+      background: #fff6e9;
+      border-radius: 999px;
+      padding: 3px 8px;
+      margin-bottom: 8px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+    .mini-list {
+      margin: 8px 0 0;
+      padding-left: 16px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .mini-list li {
+      margin: 5px 0;
+    }
+    .step {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fff;
+      padding: 10px 12px;
+    }
+    .chip {
+      display: inline-block;
+      margin-left: 8px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--chip);
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 2px 8px;
+    }
+    @media (max-width: 760px) {
+      .grid { grid-template-columns: 1fr; }
+      .dual { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="top">
+      <a class="btn" href="./index.html">Back to Main</a>
+      <a class="btn" href="./customers.html">Customers</a>
+    </div>
+
+    <section class="panel">
+      <h1>Future Features</h1>
+      <p class="sub">Planned after the current upload-to-ukulele basic release.</p>
+
+      <div class="grid">
+        <article class="card">
+          <h2>Live Sing + Auto Accompaniment</h2>
+          <p>User sings live and system generates matching ukulele accompaniment in real time.</p>
+        </article>
+        <article class="card">
+          <h2>Tempo Follow</h2>
+          <p>Accompaniment tracks vocal speed changes and timing drift without breaking musical flow.</p>
+        </article>
+        <article class="card">
+          <h2>Adaptive Performance Mode</h2>
+          <p>Song energy and arrangement can shift dynamically during live performance.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Roadmap</h2>
+      <div class="timeline">
+        <div class="step"><strong>Stage 1: Upload Song -> Ukulele Version</strong><span class="chip">Now</span><br />Core basic playable output with key/rhythm tuning.</div>
+        <div class="step"><strong>Stage 2: Smart Backing MVP</strong><br />Faster arrangement quality and better timing adaptation.</div>
+        <div class="step"><strong>Stage 3: Live Voice Follow</strong><br />Real-time singing input with auto-follow ukulele playback.</div>
+      </div>
+    </section>
+
+    <section class="panel" id="about">
+      <h2>About Us</h2>
+      <p class="sub">Lemon Tea Aur Ukulele is a music-first creator brand evolving into an AI-assisted ukulele product.</p>
+      <div style="margin-top:10px;">
+        <a class="btn" href="https://www.youtube.com/@LemonTeaAurUkulele" target="_blank" rel="noopener noreferrer">See Latest Videos</a>
+      </div>
+    </section>
+
+    <section class="panel" id="company">
+      <h2>Founder and Company</h2>
+      <p class="sub">Public-facing company details and intent.</p>
+      <div class="dual">
+        <article class="subcard">
+          <span class="label">Founder</span>
+          <h2 style="font-size:1.03rem;">Lemon Tea Aur Ukulele Team</h2>
+          <p class="sub" style="margin-top:6px;">
+            Creator-led music brand building practical AI ukulele accompaniment for singers and creators.
+          </p>
+          <ul class="mini-list">
+            <li>Music-first user experience</li>
+            <li>Low-latency real-time performance focus</li>
+            <li>Affordable creator-friendly tooling</li>
+          </ul>
+        </article>
+        <article class="subcard" id="contact">
+          <span class="label">Contact Us</span>
+          <h2 style="font-size:1.03rem;">Business and Collaborations</h2>
+          <p class="sub" style="margin-top:6px;">
+            For partnerships, pilot users, creator collaborations, and product feedback.
+          </p>
+          <ul class="mini-list">
+            <li>Email: hello@lemonteaaurukulele.com</li>
+            <li>YouTube: <a href="https://www.youtube.com/@LemonTeaAurUkulele" target="_blank" rel="noopener noreferrer">@LemonTeaAurUkulele</a></li>
+            <li>Instagram: <a href="https://www.instagram.com/lemon.tea.aur.ukulele/" target="_blank" rel="noopener noreferrer">lemon.tea.aur.ukulele</a></li>
+          </ul>
+          <div style="margin-top:10px;">
+            <a class="btn" href="mailto:hello@lemonteaaurukulele.com">Email Us</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

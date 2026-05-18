@@ -1,0 +1,9 @@
+# Local Netlify folder
+.netlify
+
+# Local generated tooling output
+generated_audio_source/
+node_modules/
+.npm-cache/
+netlify-local*.log
+netlify-local.pid

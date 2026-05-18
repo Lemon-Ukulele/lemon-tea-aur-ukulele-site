@@ -1,0 +1,7486 @@
+{
+  "generatedAt": "2026-05-18T10:55:13.249Z",
+  "sourceUrl": "https://ukebuddy.com/ukulele-chords-ub1",
+  "keyCount": 12,
+  "typeCount": 20,
+  "comboCount": 240,
+  "renderedCount": 240,
+  "keys": [
+    "C",
+    "C#",
+    "D",
+    "D#",
+    "E",
+    "F",
+    "F#",
+    "G",
+    "G#",
+    "A",
+    "A#",
+    "B"
+  ],
+  "types": [
+    "maj",
+    "min",
+    "7",
+    "maj7",
+    "m7",
+    "9",
+    "maj9",
+    "m9",
+    "6",
+    "m6",
+    "dim7",
+    "m7b5",
+    "mM7",
+    "sus2",
+    "sus4",
+    "7sus2",
+    "7sus4",
+    "aug",
+    "7+5",
+    "7b5"
+  ],
+  "combinations": [
+    {
+      "key": "C",
+      "type": "maj",
+      "position": 1,
+      "positionTotal": 32,
+      "notesByString": [
+        "G3",
+        "C3",
+        "E3",
+        "C4"
+      ],
+      "outputFile": "C\\maj\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "min",
+      "position": 1,
+      "positionTotal": 19,
+      "notesByString": [
+        "G3",
+        "Ds3",
+        "G3",
+        "C4"
+      ],
+      "outputFile": "C\\min\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "7",
+      "position": 1,
+      "positionTotal": 11,
+      "notesByString": [
+        "G3",
+        "C3",
+        "E3",
+        "As3"
+      ],
+      "outputFile": "C\\7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "maj7",
+      "position": 1,
+      "positionTotal": 12,
+      "notesByString": [
+        "G3",
+        "C3",
+        "E3",
+        "B3"
+      ],
+      "outputFile": "C\\maj7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "m7",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "As3",
+        "Ds3",
+        "G3",
+        "C4"
+      ],
+      "outputFile": "C\\m7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "9",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "As3",
+        "D3",
+        "E3",
+        "C4"
+      ],
+      "outputFile": "C\\9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "maj9",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "B3",
+        "D3",
+        "E3",
+        "C4"
+      ],
+      "outputFile": "C\\maj9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "m9",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "C4",
+        "Ds3",
+        "As3",
+        "D4"
+      ],
+      "outputFile": "C\\m9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "C4",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "As3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "6",
+      "position": 1,
+      "positionTotal": 26,
+      "notesByString": [
+        "G3",
+        "C3",
+        "E3",
+        "A3"
+      ],
+      "outputFile": "C\\6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "m6",
+      "position": 1,
+      "positionTotal": 17,
+      "notesByString": [
+        "A3",
+        "Ds3",
+        "G3",
+        "C4"
+      ],
+      "outputFile": "C\\m6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "dim7",
+      "position": 1,
+      "positionTotal": 11,
+      "notesByString": [
+        "A3",
+        "Ds3",
+        "Fs3",
+        "C4"
+      ],
+      "outputFile": "C\\dim7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "m7b5",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "As3",
+        "Ds3",
+        "Fs3",
+        "C4"
+      ],
+      "outputFile": "C\\m7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "mM7",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "B3",
+        "Ds3",
+        "G3",
+        "C4"
+      ],
+      "outputFile": "C\\mM7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "sus2",
+      "position": 1,
+      "positionTotal": 20,
+      "notesByString": [
+        "G3",
+        "C3",
+        "G3",
+        "D4"
+      ],
+      "outputFile": "C\\sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "sus4",
+      "position": 1,
+      "positionTotal": 15,
+      "notesByString": [
+        "G3",
+        "C3",
+        "F3",
+        "C4"
+      ],
+      "outputFile": "C\\sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "7sus2",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "As3",
+        "C3",
+        "G3",
+        "D4"
+      ],
+      "outputFile": "C\\7sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "7sus4",
+      "position": 1,
+      "positionTotal": 10,
+      "notesByString": [
+        "G3",
+        "C3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "C\\7sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "aug",
+      "position": 1,
+      "positionTotal": 17,
+      "notesByString": [
+        "Gs3",
+        "C3",
+        "E3",
+        "C4"
+      ],
+      "outputFile": "C\\aug\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "7+5",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "Gs3",
+        "C3",
+        "E3",
+        "As3"
+      ],
+      "outputFile": "C\\7+5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C",
+      "type": "7b5",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "As3",
+        "E3",
+        "Fs3",
+        "C4"
+      ],
+      "outputFile": "C\\7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "maj",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "Gs3",
+        "Cs3",
+        "F3",
+        "Cs4"
+      ],
+      "outputFile": "Cs\\maj\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "min",
+      "position": 1,
+      "positionTotal": 11,
+      "notesByString": [
+        "Gs3",
+        "Cs3",
+        "E3",
+        "Cs4"
+      ],
+      "outputFile": "Cs\\min\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "7",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "Gs3",
+        "Cs3",
+        "F3",
+        "B3"
+      ],
+      "outputFile": "Cs\\7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "maj7",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "Gs3",
+        "C3",
+        "F3",
+        "Cs4"
+      ],
+      "outputFile": "Cs\\maj7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "m7",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "Gs3",
+        "Cs3",
+        "E3",
+        "B3"
+      ],
+      "outputFile": "Cs\\m7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "9",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "B3",
+        "Ds3",
+        "F3",
+        "Cs4"
+      ],
+      "outputFile": "Cs\\9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "maj9",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "C4",
+        "Ds3",
+        "F3",
+        "Cs4"
+      ],
+      "outputFile": "Cs\\maj9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "C4",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "m9",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "B3",
+        "Ds3",
+        "E3",
+        "Cs4"
+      ],
+      "outputFile": "Cs\\m9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "6",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Gs3",
+        "Cs3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "Cs\\6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "m6",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Gs3",
+        "Cs3",
+        "E3",
+        "As3"
+      ],
+      "outputFile": "Cs\\m6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "dim7",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "G3",
+        "Cs3",
+        "E3",
+        "As3"
+      ],
+      "outputFile": "Cs\\dim7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "m7b5",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "G3",
+        "Cs3",
+        "E3",
+        "B3"
+      ],
+      "outputFile": "Cs\\m7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "mM7",
+      "position": 1,
+      "positionTotal": 10,
+      "notesByString": [
+        "Gs3",
+        "C3",
+        "E3",
+        "Cs4"
+      ],
+      "outputFile": "Cs\\mM7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "sus2",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "Gs3",
+        "Ds3",
+        "Gs3",
+        "Cs4"
+      ],
+      "outputFile": "Cs\\sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "sus4",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "Gs3",
+        "Cs3",
+        "Fs3",
+        "Cs4"
+      ],
+      "outputFile": "Cs\\sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "7sus2",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "B3",
+        "Ds3",
+        "Gs3",
+        "Cs4"
+      ],
+      "outputFile": "Cs\\7sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "7sus4",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "Gs3",
+        "Cs3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "Cs\\7sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "aug",
+      "position": 1,
+      "positionTotal": 13,
+      "notesByString": [
+        "A3",
+        "Cs3",
+        "F3",
+        "A3"
+      ],
+      "outputFile": "Cs\\aug\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "7+5",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "A3",
+        "Cs3",
+        "F3",
+        "B3"
+      ],
+      "outputFile": "Cs\\7+5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "C#",
+      "type": "7b5",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "G3",
+        "Cs3",
+        "F3",
+        "B3"
+      ],
+      "outputFile": "Cs\\7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "maj",
+      "position": 1,
+      "positionTotal": 13,
+      "notesByString": [
+        "A3",
+        "D3",
+        "Fs3",
+        "A3"
+      ],
+      "outputFile": "D\\maj\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "min",
+      "position": 1,
+      "positionTotal": 12,
+      "notesByString": [
+        "A3",
+        "D3",
+        "F3",
+        "A3"
+      ],
+      "outputFile": "D\\min\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "7",
+      "position": 1,
+      "positionTotal": 12,
+      "notesByString": [
+        "A3",
+        "D3",
+        "Fs3",
+        "C4"
+      ],
+      "outputFile": "D\\7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "maj7",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "A3",
+        "D3",
+        "Fs3",
+        "Cs4"
+      ],
+      "outputFile": "D\\maj7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "m7",
+      "position": 1,
+      "positionTotal": 12,
+      "notesByString": [
+        "A3",
+        "D3",
+        "F3",
+        "C4"
+      ],
+      "outputFile": "D\\m7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "9",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "C4",
+        "E3",
+        "Fs3",
+        "D4"
+      ],
+      "outputFile": "D\\9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "C4",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "maj9",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "Cs4",
+        "E3",
+        "Fs3",
+        "D4"
+      ],
+      "outputFile": "D\\maj9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs4",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "m9",
+      "position": 1,
+      "positionTotal": 10,
+      "notesByString": [
+        "C4",
+        "E3",
+        "F3",
+        "D4"
+      ],
+      "outputFile": "D\\m9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "C4",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "6",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "A3",
+        "D3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "D\\6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "m6",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "A3",
+        "D3",
+        "F3",
+        "B3"
+      ],
+      "outputFile": "D\\m6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "dim7",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Gs3",
+        "D3",
+        "F3",
+        "B3"
+      ],
+      "outputFile": "D\\dim7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "m7b5",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "Gs3",
+        "C3",
+        "F3",
+        "D4"
+      ],
+      "outputFile": "D\\m7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "mM7",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "A3",
+        "D3",
+        "F3",
+        "Cs4"
+      ],
+      "outputFile": "D\\mM7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "sus2",
+      "position": 1,
+      "positionTotal": 18,
+      "notesByString": [
+        "A3",
+        "D3",
+        "E3",
+        "A3"
+      ],
+      "outputFile": "D\\sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "sus4",
+      "position": 1,
+      "positionTotal": 19,
+      "notesByString": [
+        "G3",
+        "D3",
+        "G3",
+        "A3"
+      ],
+      "outputFile": "D\\sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "7sus2",
+      "position": 1,
+      "positionTotal": 16,
+      "notesByString": [
+        "A3",
+        "D3",
+        "E3",
+        "C4"
+      ],
+      "outputFile": "D\\7sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "7sus4",
+      "position": 1,
+      "positionTotal": 19,
+      "notesByString": [
+        "G3",
+        "D3",
+        "A3",
+        "C4"
+      ],
+      "outputFile": "D\\7sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "A3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "aug",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "As3",
+        "D3",
+        "Fs3",
+        "As3"
+      ],
+      "outputFile": "D\\aug\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "7+5",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "As3",
+        "C3",
+        "Fs3",
+        "D4"
+      ],
+      "outputFile": "D\\7+5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D",
+      "type": "7b5",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "Gs3",
+        "C3",
+        "Fs3",
+        "D4"
+      ],
+      "outputFile": "D\\7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "maj",
+      "position": 1,
+      "positionTotal": 14,
+      "notesByString": [
+        "G3",
+        "Ds3",
+        "G3",
+        "As3"
+      ],
+      "outputFile": "Ds\\maj\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "min",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "As3",
+        "Ds3",
+        "Fs3",
+        "As3"
+      ],
+      "outputFile": "Ds\\min\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "7",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "As3",
+        "Ds3",
+        "G3",
+        "Cs4"
+      ],
+      "outputFile": "Ds\\7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "maj7",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "As3",
+        "Ds3",
+        "G3",
+        "D4"
+      ],
+      "outputFile": "Ds\\maj7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "m7",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "As3",
+        "Ds3",
+        "Fs3",
+        "Cs4"
+      ],
+      "outputFile": "Ds\\m7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "9",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "G3",
+        "Ds3",
+        "F3",
+        "Cs4"
+      ],
+      "outputFile": "Ds\\9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "maj9",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "G3",
+        "Ds3",
+        "F3",
+        "D4"
+      ],
+      "outputFile": "Ds\\maj9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "m9",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Cs4",
+        "F3",
+        "Fs3",
+        "Ds4"
+      ],
+      "outputFile": "Ds\\m9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Cs4",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "6",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "As3",
+        "Ds3",
+        "G3",
+        "C4"
+      ],
+      "outputFile": "Ds\\6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "m6",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "As3",
+        "Ds3",
+        "Fs3",
+        "C4"
+      ],
+      "outputFile": "Ds\\m6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "dim7",
+      "position": 1,
+      "positionTotal": 11,
+      "notesByString": [
+        "A3",
+        "Ds3",
+        "Fs3",
+        "C4"
+      ],
+      "outputFile": "Ds\\dim7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "m7b5",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "A3",
+        "Ds3",
+        "Fs3",
+        "Cs4"
+      ],
+      "outputFile": "Ds\\m7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "mM7",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "As3",
+        "Ds3",
+        "Fs3",
+        "D4"
+      ],
+      "outputFile": "Ds\\mM7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "sus2",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "As3",
+        "Ds3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "Ds\\sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "sus4",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "Gs3",
+        "Ds3",
+        "Gs3",
+        "As3"
+      ],
+      "outputFile": "Ds\\sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "7sus2",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "As3",
+        "Ds3",
+        "F3",
+        "Cs4"
+      ],
+      "outputFile": "Ds\\7sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "7sus4",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "As3",
+        "Ds3",
+        "Gs3",
+        "Cs4"
+      ],
+      "outputFile": "Ds\\7sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "aug",
+      "position": 1,
+      "positionTotal": 13,
+      "notesByString": [
+        "G3",
+        "Ds3",
+        "G3",
+        "B3"
+      ],
+      "outputFile": "Ds\\aug\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "7+5",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "B3",
+        "Ds3",
+        "G3",
+        "Cs4"
+      ],
+      "outputFile": "Ds\\7+5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "D#",
+      "type": "7b5",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "G3",
+        "Ds3",
+        "A3",
+        "Cs4"
+      ],
+      "outputFile": "Ds\\7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "A3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "maj",
+      "position": 1,
+      "positionTotal": 12,
+      "notesByString": [
+        "Gs3",
+        "E3",
+        "E3",
+        "B3"
+      ],
+      "outputFile": "E\\maj\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "min",
+      "position": 1,
+      "positionTotal": 20,
+      "notesByString": [
+        "G3",
+        "E3",
+        "G3",
+        "B3"
+      ],
+      "outputFile": "E\\min\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "7",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "Gs3",
+        "D3",
+        "E3",
+        "B3"
+      ],
+      "outputFile": "E\\7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "maj7",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "Gs3",
+        "Ds3",
+        "E3",
+        "B3"
+      ],
+      "outputFile": "E\\maj7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "m7",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "G3",
+        "D3",
+        "E3",
+        "B3"
+      ],
+      "outputFile": "E\\m7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "9",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "Gs3",
+        "E3",
+        "Fs3",
+        "D4"
+      ],
+      "outputFile": "E\\9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "maj9",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "Ds4",
+        "Fs3",
+        "Gs3",
+        "E4"
+      ],
+      "outputFile": "E\\maj9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Ds4",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 40
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 80
+        },
+        {
+          "note": "E4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "m9",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "G3",
+        "E3",
+        "Fs3",
+        "D4"
+      ],
+      "outputFile": "E\\m9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "6",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "Gs3",
+        "Cs3",
+        "E3",
+        "B3"
+      ],
+      "outputFile": "E\\6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "m6",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "G3",
+        "Cs3",
+        "E3",
+        "B3"
+      ],
+      "outputFile": "E\\m6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "dim7",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "G3",
+        "Cs3",
+        "E3",
+        "As3"
+      ],
+      "outputFile": "E\\dim7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "m7b5",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "G3",
+        "D3",
+        "E3",
+        "As3"
+      ],
+      "outputFile": "E\\m7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "mM7",
+      "position": 1,
+      "positionTotal": 12,
+      "notesByString": [
+        "G3",
+        "Ds3",
+        "E3",
+        "B3"
+      ],
+      "outputFile": "E\\mM7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "sus2",
+      "position": 1,
+      "positionTotal": 13,
+      "notesByString": [
+        "B3",
+        "E3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "E\\sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "sus4",
+      "position": 1,
+      "positionTotal": 14,
+      "notesByString": [
+        "A3",
+        "E3",
+        "E3",
+        "B3"
+      ],
+      "outputFile": "E\\sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "7sus2",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "B3",
+        "E3",
+        "Fs3",
+        "D4"
+      ],
+      "outputFile": "E\\7sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "7sus4",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "A3",
+        "D3",
+        "E3",
+        "B3"
+      ],
+      "outputFile": "E\\7sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "aug",
+      "position": 1,
+      "positionTotal": 17,
+      "notesByString": [
+        "Gs3",
+        "C3",
+        "E3",
+        "C4"
+      ],
+      "outputFile": "E\\aug\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "7+5",
+      "position": 1,
+      "positionTotal": 11,
+      "notesByString": [
+        "Gs3",
+        "C3",
+        "E3",
+        "D4"
+      ],
+      "outputFile": "E\\7+5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "E",
+      "type": "7b5",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "Gs3",
+        "D3",
+        "E3",
+        "As3"
+      ],
+      "outputFile": "E\\7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "maj",
+      "position": 1,
+      "positionTotal": 20,
+      "notesByString": [
+        "A3",
+        "C3",
+        "F3",
+        "A3"
+      ],
+      "outputFile": "F\\maj\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "min",
+      "position": 1,
+      "positionTotal": 12,
+      "notesByString": [
+        "Gs3",
+        "C3",
+        "F3",
+        "C4"
+      ],
+      "outputFile": "F\\min\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "7",
+      "position": 1,
+      "positionTotal": 11,
+      "notesByString": [
+        "A3",
+        "Ds3",
+        "F3",
+        "C4"
+      ],
+      "outputFile": "F\\7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "maj7",
+      "position": 1,
+      "positionTotal": 19,
+      "notesByString": [
+        "A3",
+        "E3",
+        "F3",
+        "C4"
+      ],
+      "outputFile": "F\\maj7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "m7",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "Gs3",
+        "Ds3",
+        "F3",
+        "C4"
+      ],
+      "outputFile": "F\\m7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "9",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "G3",
+        "Ds3",
+        "F3",
+        "A3"
+      ],
+      "outputFile": "F\\9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "maj9",
+      "position": 1,
+      "positionTotal": 12,
+      "notesByString": [
+        "G3",
+        "E3",
+        "F3",
+        "A3"
+      ],
+      "outputFile": "F\\maj9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "m9",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "G3",
+        "F3",
+        "Gs3",
+        "Ds4"
+      ],
+      "outputFile": "F\\m9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 40
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Ds4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "6",
+      "position": 1,
+      "positionTotal": 12,
+      "notesByString": [
+        "A3",
+        "C3",
+        "F3",
+        "D4"
+      ],
+      "outputFile": "F\\6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "m6",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "Gs3",
+        "D3",
+        "F3",
+        "C4"
+      ],
+      "outputFile": "F\\m6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "dim7",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Gs3",
+        "D3",
+        "F3",
+        "B3"
+      ],
+      "outputFile": "F\\dim7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "m7b5",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "Gs3",
+        "Ds3",
+        "F3",
+        "B3"
+      ],
+      "outputFile": "F\\m7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "mM7",
+      "position": 1,
+      "positionTotal": 11,
+      "notesByString": [
+        "Gs3",
+        "E3",
+        "F3",
+        "C4"
+      ],
+      "outputFile": "F\\mM7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "sus2",
+      "position": 1,
+      "positionTotal": 15,
+      "notesByString": [
+        "G3",
+        "C3",
+        "F3",
+        "C4"
+      ],
+      "outputFile": "F\\sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "sus4",
+      "position": 1,
+      "positionTotal": 11,
+      "notesByString": [
+        "As3",
+        "C3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "F\\sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "7sus2",
+      "position": 1,
+      "positionTotal": 11,
+      "notesByString": [
+        "G3",
+        "Ds3",
+        "F3",
+        "C4"
+      ],
+      "outputFile": "F\\7sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "7sus4",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "As3",
+        "Ds3",
+        "F3",
+        "C4"
+      ],
+      "outputFile": "F\\7sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "aug",
+      "position": 1,
+      "positionTotal": 13,
+      "notesByString": [
+        "A3",
+        "Cs3",
+        "F3",
+        "A3"
+      ],
+      "outputFile": "F\\aug\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "7+5",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "A3",
+        "Ds3",
+        "F3",
+        "Cs4"
+      ],
+      "outputFile": "F\\7+5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F",
+      "type": "7b5",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "A3",
+        "Ds3",
+        "F3",
+        "B3"
+      ],
+      "outputFile": "F\\7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "maj",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "As3",
+        "Cs3",
+        "Fs3",
+        "As3"
+      ],
+      "outputFile": "Fs\\maj\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "min",
+      "position": 1,
+      "positionTotal": 14,
+      "notesByString": [
+        "A3",
+        "Cs3",
+        "Fs3",
+        "A3"
+      ],
+      "outputFile": "Fs\\min\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "7",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "As3",
+        "E3",
+        "Fs3",
+        "Cs4"
+      ],
+      "outputFile": "Fs\\7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "maj7",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "As3",
+        "F3",
+        "Fs3",
+        "Cs4"
+      ],
+      "outputFile": "Fs\\maj7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "m7",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "A3",
+        "E3",
+        "Fs3",
+        "Cs4"
+      ],
+      "outputFile": "Fs\\m7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "9",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "Gs3",
+        "E3",
+        "Fs3",
+        "As3"
+      ],
+      "outputFile": "Fs\\9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "maj9",
+      "position": 1,
+      "positionTotal": 2,
+      "notesByString": [
+        "Gs3",
+        "F3",
+        "Fs3",
+        "As3"
+      ],
+      "outputFile": "Fs\\maj9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "m9",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "Gs3",
+        "E3",
+        "Fs3",
+        "A3"
+      ],
+      "outputFile": "Fs\\m9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "6",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "As3",
+        "Ds3",
+        "Fs3",
+        "Cs4"
+      ],
+      "outputFile": "Fs\\6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "m6",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "A3",
+        "Ds3",
+        "Fs3",
+        "Cs4"
+      ],
+      "outputFile": "Fs\\m6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "dim7",
+      "position": 1,
+      "positionTotal": 11,
+      "notesByString": [
+        "A3",
+        "Ds3",
+        "Fs3",
+        "C4"
+      ],
+      "outputFile": "Fs\\dim7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "m7b5",
+      "position": 1,
+      "positionTotal": 18,
+      "notesByString": [
+        "A3",
+        "E3",
+        "Fs3",
+        "C4"
+      ],
+      "outputFile": "Fs\\m7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "mM7",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "A3",
+        "F3",
+        "Fs3",
+        "Cs4"
+      ],
+      "outputFile": "Fs\\mM7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "sus2",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "Gs3",
+        "Cs3",
+        "Fs3",
+        "Cs4"
+      ],
+      "outputFile": "Fs\\sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "sus4",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "B3",
+        "Cs3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "Fs\\sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "7sus2",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "Gs3",
+        "E3",
+        "Fs3",
+        "Cs4"
+      ],
+      "outputFile": "Fs\\7sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "7sus4",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "B3",
+        "E3",
+        "Fs3",
+        "Cs4"
+      ],
+      "outputFile": "Fs\\7sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "aug",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "As3",
+        "D3",
+        "Fs3",
+        "As3"
+      ],
+      "outputFile": "Fs\\aug\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "7+5",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "As3",
+        "E3",
+        "Fs3",
+        "D4"
+      ],
+      "outputFile": "Fs\\7+5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "F#",
+      "type": "7b5",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "As3",
+        "E3",
+        "Fs3",
+        "C4"
+      ],
+      "outputFile": "Fs\\7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "maj",
+      "position": 1,
+      "positionTotal": 12,
+      "notesByString": [
+        "G3",
+        "D3",
+        "G3",
+        "B3"
+      ],
+      "outputFile": "G\\maj\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "min",
+      "position": 1,
+      "positionTotal": 13,
+      "notesByString": [
+        "G3",
+        "D3",
+        "G3",
+        "As3"
+      ],
+      "outputFile": "G\\min\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "7",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "G3",
+        "D3",
+        "F3",
+        "B3"
+      ],
+      "outputFile": "G\\7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "maj7",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "G3",
+        "D3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "G\\maj7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "m7",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "G3",
+        "D3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "G\\m7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "9",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "A3",
+        "F3",
+        "G3",
+        "B3"
+      ],
+      "outputFile": "G\\9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "maj9",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "G3",
+        "Fs3",
+        "A3",
+        "B3"
+      ],
+      "outputFile": "G\\maj9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 40
+        },
+        {
+          "note": "A3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "m9",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "G3",
+        "F3",
+        "A3",
+        "As3"
+      ],
+      "outputFile": "G\\m9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "F3",
+          "delayMs": 40
+        },
+        {
+          "note": "A3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "6",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "G3",
+        "D3",
+        "E3",
+        "B3"
+      ],
+      "outputFile": "G\\6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "m6",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "G3",
+        "D3",
+        "E3",
+        "As3"
+      ],
+      "outputFile": "G\\m6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "dim7",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "G3",
+        "Cs3",
+        "E3",
+        "As3"
+      ],
+      "outputFile": "G\\dim7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "m7b5",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "G3",
+        "Cs3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "G\\m7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "mM7",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "G3",
+        "D3",
+        "Fs3",
+        "As3"
+      ],
+      "outputFile": "G\\mM7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "sus2",
+      "position": 1,
+      "positionTotal": 19,
+      "notesByString": [
+        "G3",
+        "D3",
+        "G3",
+        "A3"
+      ],
+      "outputFile": "G\\sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "sus4",
+      "position": 1,
+      "positionTotal": 20,
+      "notesByString": [
+        "G3",
+        "C3",
+        "G3",
+        "D4"
+      ],
+      "outputFile": "G\\sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "7sus2",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "G3",
+        "D3",
+        "F3",
+        "A3"
+      ],
+      "outputFile": "G\\7sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "7sus4",
+      "position": 1,
+      "positionTotal": 12,
+      "notesByString": [
+        "G3",
+        "D3",
+        "F3",
+        "C4"
+      ],
+      "outputFile": "G\\7sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "aug",
+      "position": 1,
+      "positionTotal": 13,
+      "notesByString": [
+        "G3",
+        "Ds3",
+        "G3",
+        "B3"
+      ],
+      "outputFile": "G\\aug\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "7+5",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "G3",
+        "Ds3",
+        "F3",
+        "B3"
+      ],
+      "outputFile": "G\\7+5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G",
+      "type": "7b5",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "G3",
+        "Cs3",
+        "F3",
+        "B3"
+      ],
+      "outputFile": "G\\7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "maj",
+      "position": 1,
+      "positionTotal": 14,
+      "notesByString": [
+        "C4",
+        "Ds3",
+        "Gs3",
+        "C4"
+      ],
+      "outputFile": "Gs\\maj\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "C4",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "min",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "Gs3",
+        "Ds3",
+        "Gs3",
+        "B3"
+      ],
+      "outputFile": "Gs\\min\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "7",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "Gs3",
+        "Ds3",
+        "Fs3",
+        "C4"
+      ],
+      "outputFile": "Gs\\7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "maj7",
+      "position": 1,
+      "positionTotal": 11,
+      "notesByString": [
+        "G3",
+        "Ds3",
+        "Gs3",
+        "C4"
+      ],
+      "outputFile": "Gs\\maj7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "m7",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Gs3",
+        "Ds3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "Gs\\m7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "9",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Gs3",
+        "C3",
+        "Fs3",
+        "As3"
+      ],
+      "outputFile": "Gs\\9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "maj9",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "G3",
+        "C3",
+        "Gs3",
+        "As3"
+      ],
+      "outputFile": "Gs\\maj9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "m9",
+      "position": 1,
+      "positionTotal": 2,
+      "notesByString": [
+        "As3",
+        "Fs3",
+        "Gs3",
+        "B3"
+      ],
+      "outputFile": "Gs\\m9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 40
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "6",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "Gs3",
+        "Ds3",
+        "F3",
+        "C4"
+      ],
+      "outputFile": "Gs\\6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "m6",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "Gs3",
+        "Ds3",
+        "F3",
+        "B3"
+      ],
+      "outputFile": "Gs\\m6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "dim7",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Gs3",
+        "D3",
+        "F3",
+        "B3"
+      ],
+      "outputFile": "Gs\\dim7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "m7b5",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Gs3",
+        "D3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "Gs\\m7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "mM7",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "G3",
+        "Ds3",
+        "Gs3",
+        "B3"
+      ],
+      "outputFile": "Gs\\mM7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "sus2",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "Gs3",
+        "Ds3",
+        "Gs3",
+        "As3"
+      ],
+      "outputFile": "Gs\\sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "sus4",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "Gs3",
+        "Ds3",
+        "Gs3",
+        "Cs4"
+      ],
+      "outputFile": "Gs\\sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "7sus2",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Gs3",
+        "Ds3",
+        "Fs3",
+        "As3"
+      ],
+      "outputFile": "Gs\\7sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "7sus4",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Gs3",
+        "Ds3",
+        "Fs3",
+        "Cs4"
+      ],
+      "outputFile": "Gs\\7sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "aug",
+      "position": 1,
+      "positionTotal": 17,
+      "notesByString": [
+        "Gs3",
+        "C3",
+        "E3",
+        "C4"
+      ],
+      "outputFile": "Gs\\aug\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "7+5",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "Gs3",
+        "E3",
+        "Fs3",
+        "C4"
+      ],
+      "outputFile": "Gs\\7+5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "G#",
+      "type": "7b5",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "Gs3",
+        "C3",
+        "Fs3",
+        "D4"
+      ],
+      "outputFile": "Gs\\7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "maj",
+      "position": 1,
+      "positionTotal": 15,
+      "notesByString": [
+        "A3",
+        "Cs3",
+        "E3",
+        "A3"
+      ],
+      "outputFile": "A\\maj\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "min",
+      "position": 1,
+      "positionTotal": 32,
+      "notesByString": [
+        "A3",
+        "C3",
+        "E3",
+        "A3"
+      ],
+      "outputFile": "A\\min\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "7",
+      "position": 1,
+      "positionTotal": 10,
+      "notesByString": [
+        "G3",
+        "Cs3",
+        "E3",
+        "A3"
+      ],
+      "outputFile": "A\\7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "maj7",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "Gs3",
+        "Cs3",
+        "E3",
+        "A3"
+      ],
+      "outputFile": "A\\maj7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "m7",
+      "position": 1,
+      "positionTotal": 26,
+      "notesByString": [
+        "G3",
+        "C3",
+        "E3",
+        "A3"
+      ],
+      "outputFile": "A\\m7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "9",
+      "position": 1,
+      "positionTotal": 10,
+      "notesByString": [
+        "G3",
+        "Cs3",
+        "A3",
+        "B3"
+      ],
+      "outputFile": "A\\9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "A3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "maj9",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "A3",
+        "Cs3",
+        "Gs3",
+        "B3"
+      ],
+      "outputFile": "A\\maj9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "m9",
+      "position": 1,
+      "positionTotal": 11,
+      "notesByString": [
+        "G3",
+        "C3",
+        "A3",
+        "B3"
+      ],
+      "outputFile": "A\\m9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "A3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "6",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "A3",
+        "E3",
+        "Fs3",
+        "Cs4"
+      ],
+      "outputFile": "A\\6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "m6",
+      "position": 1,
+      "positionTotal": 18,
+      "notesByString": [
+        "A3",
+        "E3",
+        "Fs3",
+        "C4"
+      ],
+      "outputFile": "A\\m6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "dim7",
+      "position": 1,
+      "positionTotal": 11,
+      "notesByString": [
+        "A3",
+        "Ds3",
+        "Fs3",
+        "C4"
+      ],
+      "outputFile": "A\\dim7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "m7b5",
+      "position": 1,
+      "positionTotal": 17,
+      "notesByString": [
+        "G3",
+        "Ds3",
+        "A3",
+        "C4"
+      ],
+      "outputFile": "A\\m7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "A3",
+          "delayMs": 80
+        },
+        {
+          "note": "C4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "mM7",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "Gs3",
+        "C3",
+        "E3",
+        "A3"
+      ],
+      "outputFile": "A\\mM7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "sus2",
+      "position": 1,
+      "positionTotal": 14,
+      "notesByString": [
+        "A3",
+        "E3",
+        "E3",
+        "B3"
+      ],
+      "outputFile": "A\\sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "sus4",
+      "position": 1,
+      "positionTotal": 18,
+      "notesByString": [
+        "A3",
+        "D3",
+        "E3",
+        "A3"
+      ],
+      "outputFile": "A\\sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "7sus2",
+      "position": 1,
+      "positionTotal": 17,
+      "notesByString": [
+        "A3",
+        "E3",
+        "G3",
+        "B3"
+      ],
+      "outputFile": "A\\7sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "7sus4",
+      "position": 1,
+      "positionTotal": 12,
+      "notesByString": [
+        "G3",
+        "D3",
+        "E3",
+        "A3"
+      ],
+      "outputFile": "A\\7sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "aug",
+      "position": 1,
+      "positionTotal": 13,
+      "notesByString": [
+        "A3",
+        "Cs3",
+        "F3",
+        "A3"
+      ],
+      "outputFile": "A\\aug\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "7+5",
+      "position": 1,
+      "positionTotal": 10,
+      "notesByString": [
+        "G3",
+        "Cs3",
+        "F3",
+        "A3"
+      ],
+      "outputFile": "A\\7+5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "A3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "type": "7b5",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "G3",
+        "Ds3",
+        "A3",
+        "Cs4"
+      ],
+      "outputFile": "A\\7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "A3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "maj",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "As3",
+        "D3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "As\\maj\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "min",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "As3",
+        "Cs3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "As\\min\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "7",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Gs3",
+        "D3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "As\\7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "maj7",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "A3",
+        "D3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "As\\maj7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "m7",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Gs3",
+        "Cs3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "As\\m7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "9",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "As3",
+        "C3",
+        "Gs3",
+        "D4"
+      ],
+      "outputFile": "As\\9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "maj9",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "As3",
+        "C3",
+        "A3",
+        "D4"
+      ],
+      "outputFile": "As\\maj9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "A3",
+          "delayMs": 80
+        },
+        {
+          "note": "D4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "m9",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "As3",
+        "C3",
+        "Gs3",
+        "Cs4"
+      ],
+      "outputFile": "As\\m9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "Gs3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "6",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "G3",
+        "D3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "As\\6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "m6",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "G3",
+        "Cs3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "As\\m6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "dim7",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "G3",
+        "Cs3",
+        "E3",
+        "As3"
+      ],
+      "outputFile": "As\\dim7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "m7b5",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Gs3",
+        "Cs3",
+        "E3",
+        "As3"
+      ],
+      "outputFile": "As\\m7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "mM7",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "A3",
+        "Cs3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "As\\mM7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "sus2",
+      "position": 1,
+      "positionTotal": 11,
+      "notesByString": [
+        "As3",
+        "C3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "As\\sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "sus4",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "As3",
+        "Ds3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "As\\sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "7sus2",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "Gs3",
+        "C3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "As\\7sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "C3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "7sus4",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "Gs3",
+        "Ds3",
+        "F3",
+        "As3"
+      ],
+      "outputFile": "As\\7sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "aug",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "As3",
+        "D3",
+        "Fs3",
+        "As3"
+      ],
+      "outputFile": "As\\aug\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "7+5",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Gs3",
+        "D3",
+        "Fs3",
+        "As3"
+      ],
+      "outputFile": "As\\7+5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "A#",
+      "type": "7b5",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "Gs3",
+        "D3",
+        "E3",
+        "As3"
+      ],
+      "outputFile": "As\\7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "E3",
+          "delayMs": 80
+        },
+        {
+          "note": "As3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "maj",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "B3",
+        "Ds3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "B\\maj\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "min",
+      "position": 1,
+      "positionTotal": 9,
+      "notesByString": [
+        "B3",
+        "D3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "B\\min\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "7",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "A3",
+        "Ds3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "B\\7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "maj7",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "As3",
+        "Ds3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "B\\maj7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "m7",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "A3",
+        "D3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "B\\m7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "9",
+      "position": 1,
+      "positionTotal": 6,
+      "notesByString": [
+        "B3",
+        "Ds3",
+        "A3",
+        "Cs4"
+      ],
+      "outputFile": "B\\9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "A3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "maj9",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "B3",
+        "Ds3",
+        "As3",
+        "Cs4"
+      ],
+      "outputFile": "B\\maj9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "As3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "m9",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "B3",
+        "D3",
+        "A3",
+        "Cs4"
+      ],
+      "outputFile": "B\\m9\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "A3",
+          "delayMs": 80
+        },
+        {
+          "note": "Cs4",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "6",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Gs3",
+        "Ds3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "B\\6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "m6",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Gs3",
+        "D3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "B\\m6\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "dim7",
+      "position": 1,
+      "positionTotal": 4,
+      "notesByString": [
+        "Gs3",
+        "D3",
+        "F3",
+        "B3"
+      ],
+      "outputFile": "B\\dim7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "Gs3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "m7b5",
+      "position": 1,
+      "positionTotal": 7,
+      "notesByString": [
+        "A3",
+        "D3",
+        "F3",
+        "B3"
+      ],
+      "outputFile": "B\\m7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "mM7",
+      "position": 1,
+      "positionTotal": 5,
+      "notesByString": [
+        "As3",
+        "D3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "B\\mM7\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "As3",
+          "delayMs": 0
+        },
+        {
+          "note": "D3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "sus2",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "B3",
+        "Cs3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "B\\sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "sus4",
+      "position": 1,
+      "positionTotal": 13,
+      "notesByString": [
+        "B3",
+        "E3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "B\\sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "B3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "7sus2",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "A3",
+        "Cs3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "B\\7sus2\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Cs3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "7sus4",
+      "position": 1,
+      "positionTotal": 12,
+      "notesByString": [
+        "A3",
+        "E3",
+        "Fs3",
+        "B3"
+      ],
+      "outputFile": "B\\7sus4\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "E3",
+          "delayMs": 40
+        },
+        {
+          "note": "Fs3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "aug",
+      "position": 1,
+      "positionTotal": 13,
+      "notesByString": [
+        "G3",
+        "Ds3",
+        "G3",
+        "B3"
+      ],
+      "outputFile": "B\\aug\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "G3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "7+5",
+      "position": 1,
+      "positionTotal": 12,
+      "notesByString": [
+        "G3",
+        "Ds3",
+        "A3",
+        "B3"
+      ],
+      "outputFile": "B\\7+5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "G3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "A3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "type": "7b5",
+      "position": 1,
+      "positionTotal": 8,
+      "notesByString": [
+        "A3",
+        "Ds3",
+        "F3",
+        "B3"
+      ],
+      "outputFile": "B\\7b5\\pos_01.mp3",
+      "noteEvents": [
+        {
+          "note": "A3",
+          "delayMs": 0
+        },
+        {
+          "note": "Ds3",
+          "delayMs": 40
+        },
+        {
+          "note": "F3",
+          "delayMs": 80
+        },
+        {
+          "note": "B3",
+          "delayMs": 120
+        }
+      ]
+    }
+  ]
+}

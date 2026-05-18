@@ -1,0 +1,1194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lemon Tea Aur Ukulele Studio</title>
+  <style>
+    :root {
+      --bg: #f9f2e7;
+      --card: #fffdf8;
+      --line: #e9d7be;
+      --txt: #2f271f;
+      --muted: #6e604f;
+      --accent: #cf8429;
+      --accent-d: #a96417;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: radial-gradient(900px 420px at 110% -15%, #ffe4bd 0, transparent 56%), var(--bg);
+      color: var(--txt);
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+    }
+    .wrap { max-width: 960px; margin: 0 auto; padding: 24px 16px 40px; }
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--card);
+      padding: 16px;
+      box-shadow: 0 10px 24px rgba(70, 40, 8, 0.06);
+    }
+    h1 { margin: 0; font-size: 1.7rem; }
+    .sub { margin: 6px 0 0; color: var(--muted); font-size: 0.95rem; }
+    .row { display: grid; gap: 12px; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 12px; }
+    .field { display: grid; gap: 6px; }
+    label { font-size: 0.84rem; color: var(--muted); }
+    input, select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 10px;
+      background: #fff;
+      color: var(--txt);
+    }
+    .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    button {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-weight: 700;
+      cursor: pointer;
+      background: #fff;
+      color: var(--txt);
+    }
+    button.primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    button.primary:hover { background: var(--accent-d); border-color: var(--accent-d); }
+    .out {
+      margin-top: 12px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fff;
+      padding: 12px;
+      min-height: 120px;
+      white-space: pre-wrap;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.85rem;
+      overflow: auto;
+    }
+    .note { margin-top: 10px; color: var(--muted); font-size: 0.84rem; }
+    .mix-result {
+      margin-top: 10px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fff;
+      padding: 10px;
+    }
+    .mix-meta {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+    .mix-result audio {
+      width: 100%;
+      display: block;
+    }
+    .mix-download {
+      margin-top: 8px;
+      display: inline-block;
+      font-size: 0.85rem;
+      color: #6f470f;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .tool-box {
+      margin-top: 12px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fff;
+      padding: 12px;
+    }
+    .tool-head {
+      margin: 0;
+      font-size: 0.96rem;
+      color: #4a3d2d;
+    }
+    .tool-note {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+    .library {
+      margin-top: 14px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fff;
+      padding: 12px;
+    }
+    .library-head {
+      display: grid;
+      grid-template-columns: 1fr 170px;
+      gap: 10px;
+      align-items: center;
+    }
+    .library h2 {
+      margin: 0;
+      font-size: 1.05rem;
+    }
+    .library-sub {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+    .uke-visual {
+      margin-top: 10px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 10px;
+      background: #fffdf9;
+    }
+    .strings {
+      position: relative;
+      height: 70px;
+    }
+    .string-line {
+      position: absolute;
+      left: 6px;
+      right: 6px;
+      height: 2px;
+      background: #8b6d48;
+      border-radius: 3px;
+    }
+    .string-line:nth-child(1) { top: 10px; }
+    .string-line:nth-child(2) { top: 26px; }
+    .string-line:nth-child(3) { top: 42px; }
+    .string-line:nth-child(4) { top: 58px; }
+    .dot {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #cf8429;
+      border: 2px solid #fff;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.18);
+    }
+    .library-path {
+      margin-top: 8px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.78rem;
+      color: #6c5e4d;
+      background: #fff;
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      padding: 7px 8px;
+    }
+    .uke-frame {
+      width: 160px;
+      height: 112px;
+      justify-self: end;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fffdf8;
+      padding: 0;
+      overflow: hidden;
+      display: grid;
+      place-items: center;
+    }
+    .uke-photo {
+      width: 120px;
+      height: 120px;
+      transform: rotate(90deg);
+      transform-origin: center;
+      object-fit: contain;
+      object-position: center;
+      display: block;
+    }
+    @media (max-width: 720px) {
+      .row { grid-template-columns: 1fr; }
+      .library-head { grid-template-columns: 1fr; }
+      .uke-frame { justify-self: start; width: 140px; height: 98px; }
+      .uke-photo { width: 104px; height: 104px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="panel">
+      <h1>Lemon Ukulele AI - Stage 1 + 2 MVP</h1>
+      <p class="sub">Upload a song, get a ukulele draft, and generate Teach Me lesson steps.</p>
+
+      <section class="tool-box">
+        <h2 class="tool-head">Strumming + Chords</h2>
+        <p class="tool-note">Set your pattern first, then generate a custom ukulele mix.</p>
+        <div class="row">
+          <div class="field">
+            <label for="customChords">Chord Progression</label>
+            <input id="customChords" placeholder="C G Am F | C G Am F" />
+          </div>
+          <div class="field">
+            <label for="strumPattern">Strum Pattern</label>
+            <input id="strumPattern" value="D D D U D U |" />
+          </div>
+          <div class="field">
+            <label>Pattern Legend</label>
+            <input value="D=down U=up -=rest |=small break T=thump" disabled />
+          </div>
+        </div>
+        <div class="row">
+          <div class="field">
+            <label for="mixBpm">Mix BPM <span id="mixBpmVal">96</span></label>
+            <input id="mixBpm" type="range" min="30" max="200" step="1" value="96" />
+          </div>
+          <div class="field">
+            <label for="mixTempoScale">Mix Tempo Scale <span id="mixTempoScaleVal">1.00x</span></label>
+            <input id="mixTempoScale" type="range" min="0.50" max="1.50" step="0.01" value="1.00" />
+          </div>
+          <div class="field">
+            <label for="origGain">Original Audio Gain <span id="origGainVal">0.62</span></label>
+            <input id="origGain" type="range" min="0" max="1" step="0.01" value="0.62" />
+          </div>
+          <div class="field">
+            <label for="ukeGain">Ukulele Pattern Gain <span id="ukeGainVal">0.42</span></label>
+            <input id="ukeGain" type="range" min="0" max="1" step="0.01" value="0.42" />
+          </div>
+        </div>
+        <div class="actions">
+          <button id="playMix" class="primary">Generate + Play Mix</button>
+        </div>
+      </section>
+
+      <section class="tool-box">
+        <h2 class="tool-head">Audio + AI Analysis</h2>
+        <p class="tool-note">Upload audio and run analysis / arrangement / lesson APIs.</p>
+        <div class="field">
+          <label for="file">Audio File (.wav preferred in this prototype)</label>
+          <input id="file" type="file" accept="audio/*" />
+        </div>
+        <div class="row">
+          <div class="field">
+            <label for="apiBase">API Base URL</label>
+            <input id="apiBase" value="" placeholder="Leave empty to use this site /api" />
+          </div>
+          <div class="field">
+            <label for="level">Level</label>
+            <select id="level">
+              <option value="beginner">Beginner</option>
+              <option value="medium">Medium</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="tempoMult">Preview Tempo Multiplier <span id="tempoMultVal">1.00x</span></label>
+            <input id="tempoMult" type="range" min="0.70" max="1.50" step="0.01" value="1.00" />
+          </div>
+        </div>
+        <div class="actions">
+          <button id="analyze">Analyze</button>
+          <button id="arrange" class="primary">Build Arrangement</button>
+          <button id="lesson">Build Teach Me Plan</button>
+          <button id="play">Play Backing Preview</button>
+        </div>
+      </section>
+
+      <div class="out" id="out">No result yet.</div>
+      <div class="mix-result">
+        <p class="mix-meta" id="mixStatus">Mix result: not generated yet.</p>
+        <audio id="mixResultAudio" controls></audio>
+        <a id="mixDownload" class="mix-download" href="#" download="ukulele-mix.webm" style="display:none;">Download Mixed Audio</a>
+      </div>
+      <p class="note">This MVP uses heuristic analysis stubs first. Next sprint: swap in Basic Pitch + Essentia/aubio modules.</p>
+
+      <section class="library">
+        <div class="library-head">
+          <div>
+            <h2>Ukulele Library Player</h2>
+            <p class="library-sub">Try local Chords, Scales, and Arpeggios directly here.</p>
+          </div>
+          <div class="uke-frame">
+            <img class="uke-photo" src="./assets/ukulele-cc0.svg" alt="Ukulele illustration" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="field">
+            <label for="libCategory">Category</label>
+            <select id="libCategory">
+              <option value="chords">Chords</option>
+              <option value="scales">Scales</option>
+              <option value="arpeggios">Arpeggios</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="libRoot">Key</label>
+            <select id="libRoot"></select>
+          </div>
+          <div class="field">
+            <label for="libType">Type</label>
+            <select id="libType"></select>
+          </div>
+        </div>
+        <div class="actions">
+          <button id="libPlayDown" class="primary">Play Downstroke</button>
+          <button id="libPlayUp">Play Upstroke</button>
+          <button id="libCheck">Check File</button>
+        </div>
+        <div class="uke-visual">
+          <div class="strings" id="strings">
+            <div class="string-line"></div>
+            <div class="string-line"></div>
+            <div class="string-line"></div>
+            <div class="string-line"></div>
+          </div>
+          <div class="library-path" id="libPath">Ready.</div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script>
+    const out = document.getElementById("out");
+    const ROOTS = ["A","As","B","C","Cs","D","Ds","E","F","Fs","G","Gs"];
+    const LIB_TYPES = {
+      chords: ["maj","min","7","maj7","m7","6","9","sus2","sus4","dim7","aug"],
+      arpeggios: ["maj","min","7","maj7","m7","6","9","sus2","sus4","dim7","aug"],
+      scales: ["major","minor","major-pentatonic","minor-pentatonic","blues","dorian","mixolydian","lydian","locrian","phrygian","harmonic-minor","melodic-minor"]
+    };
+    let latestArrangement = null;
+    let audioCtx = null;
+    let activeNodes = [];
+    let activeMaster = null;
+    let isPlaying = false;
+    const sampleBufferCache = new Map();
+    const availableUrlCache = new Map();
+    let mixRecorder = null;
+    let mixChunks = [];
+    let mixBlobUrl = null;
+
+    function selectedFile() {
+      const input = document.getElementById("file");
+      if (!input.files || !input.files.length) {
+        throw new Error("Please select an audio file first.");
+      }
+      return input.files[0];
+    }
+
+    function hasSelectedFile() {
+      const input = document.getElementById("file");
+      return Boolean(input.files && input.files.length);
+    }
+
+    function apiBase() {
+      return document.getElementById("apiBase").value.replace(/\/$/, "");
+    }
+
+    function level() {
+      return document.getElementById("level").value;
+    }
+
+    function tempoMultiplier() {
+      const raw = parseFloat(document.getElementById("tempoMult").value || "1.0");
+      return Number.isFinite(raw) ? Math.min(1.5, Math.max(0.7, raw)) : 1.0;
+    }
+
+    function pretty(obj) {
+      return JSON.stringify(obj, null, 2);
+    }
+
+    function fillLibRoots() {
+      const el = document.getElementById("libRoot");
+      el.innerHTML = ROOTS.map((r) => `<option value="${r}">${r}</option>`).join("");
+    }
+
+    function fillLibTypes() {
+      const cat = document.getElementById("libCategory").value;
+      const list = LIB_TYPES[cat] || [];
+      document.getElementById("libType").innerHTML = list.map((t) => `<option value="${t}">${t}</option>`).join("");
+    }
+
+    function selectedLibBase() {
+      const cat = document.getElementById("libCategory").value;
+      const root = document.getElementById("libRoot").value;
+      const type = document.getElementById("libType").value;
+      return `./ukulele_audio/${cat}/combinations/${root}/${type}`;
+    }
+
+    function libCandidateUrls(direction = "down") {
+      const cat = document.getElementById("libCategory").value;
+      const base = selectedLibBase();
+      if (cat === "chords") {
+        if (direction === "up") return [`${base}/up_01.mp3`, `${base}/up_play.mp3`, `${base}/pos_01.mp3`, `${base}/play.mp3`];
+        return [`${base}/pos_01.mp3`, `${base}/play.mp3`];
+      }
+      return [`${base}/play.mp3`, `${base}/pos_01.mp3`];
+    }
+
+    function noteToMidi(noteName, octave) {
+      const map = {
+        "C": 0, "C#": 1, "Db": 1, "D": 2, "D#": 3, "Eb": 3,
+        "E": 4, "F": 5, "F#": 6, "Gb": 6, "G": 7, "G#": 8,
+        "Ab": 8, "A": 9, "A#": 10, "Bb": 10, "B": 11
+      };
+      return (octave + 1) * 12 + map[noteName];
+    }
+
+    function midiToFreq(midi) {
+      return 440 * Math.pow(2, (midi - 69) / 12);
+    }
+
+    function parseChord(chord) {
+      const minor = chord.endsWith("m");
+      const core = minor ? chord.slice(0, -1) : chord;
+      return { root: core, minor };
+    }
+
+    function stopPreview() {
+      activeNodes.forEach(({ osc, gain, noise }) => {
+        try {
+          gain.gain.cancelScheduledValues(audioCtx.currentTime);
+          gain.gain.setTargetAtTime(0.0001, audioCtx.currentTime, 0.03);
+          osc.stop(audioCtx.currentTime + 0.05);
+          if (noise) {
+            noise.stop(audioCtx.currentTime + 0.05);
+          }
+        } catch (_) {}
+      });
+      activeNodes = [];
+      if (activeMaster) {
+        try { activeMaster.disconnect(); } catch (_) {}
+      }
+      activeMaster = null;
+      isPlaying = false;
+      document.getElementById("play").textContent = "Play Backing Preview";
+      const mixBtn = document.getElementById("playMix");
+      if (mixBtn) mixBtn.textContent = "Generate + Play Mix";
+      if (mixRecorder && mixRecorder.state !== "inactive") {
+        mixRecorder.stop();
+      }
+    }
+
+    function setMixStatus(text) {
+      const el = document.getElementById("mixStatus");
+      if (el) el.textContent = text;
+    }
+
+    function setMixOutput(blob, ext = "webm") {
+      if (mixBlobUrl) {
+        URL.revokeObjectURL(mixBlobUrl);
+      }
+      mixBlobUrl = URL.createObjectURL(blob);
+      const audioEl = document.getElementById("mixResultAudio");
+      const dl = document.getElementById("mixDownload");
+      if (audioEl) {
+        audioEl.src = mixBlobUrl;
+        audioEl.load();
+      }
+      if (dl) {
+        dl.href = mixBlobUrl;
+        dl.download = `ukulele-mix.${ext}`;
+        dl.style.display = "inline-block";
+      }
+      setMixStatus("Mix result ready. You can play or download it.");
+    }
+
+    function createMixRecorder(stream) {
+      const candidates = ["audio/webm;codecs=opus", "audio/webm", ""];
+      for (const mime of candidates) {
+        try {
+          if (mime && !MediaRecorder.isTypeSupported(mime)) continue;
+          return mime ? new MediaRecorder(stream, { mimeType: mime }) : new MediaRecorder(stream);
+        } catch (_) {}
+      }
+      return null;
+    }
+
+    function createNoiseBuffer(ctx) {
+      const size = ctx.sampleRate * 0.06;
+      const buffer = ctx.createBuffer(1, size, ctx.sampleRate);
+      const data = buffer.getChannelData(0);
+      for (let i = 0; i < size; i++) {
+        data[i] = (Math.random() * 2 - 1) * Math.exp(-i / (size * 0.22));
+      }
+      return buffer;
+    }
+
+    function chordToLibraryBase(chord, category) {
+      const mapRoot = {
+        "C": "C", "C#": "Cs", "Db": "Cs",
+        "D": "D", "D#": "Ds", "Eb": "Ds",
+        "E": "E",
+        "F": "F", "F#": "Fs", "Gb": "Fs",
+        "G": "G", "G#": "Gs", "Ab": "Gs",
+        "A": "A", "A#": "As", "Bb": "As",
+        "B": "B"
+      };
+      const parsed = parseChord(chord);
+      const root = mapRoot[parsed.root] || "C";
+      let type = "maj";
+      if (parsed.minor) type = "min";
+      return `./ukulele_audio/${category}/combinations/${root}/${type}`;
+    }
+
+    function candidateLibraryUrls(chord, category, direction = "down") {
+      const base = chordToLibraryBase(chord, category);
+      if (category === "chords") {
+        if (direction === "up") {
+          return [`${base}/up_01.mp3`, `${base}/up_play.mp3`, `${base}/pos_01.mp3`, `${base}/play.mp3`];
+        }
+        return [`${base}/pos_01.mp3`, `${base}/play.mp3`];
+      }
+      if (direction === "up") {
+        return [`${base}/up_play.mp3`, `${base}/play.mp3`, `${base}/pos_01.mp3`];
+      }
+      return [`${base}/play.mp3`, `${base}/pos_01.mp3`];
+    }
+
+    function percussionUrl() {
+      return "./ukulele_audio/percussion/palm_thump.wav";
+    }
+
+    async function pickFirstAvailable(urls) {
+      const cacheKey = urls.join("|");
+      if (availableUrlCache.has(cacheKey)) {
+        return availableUrlCache.get(cacheKey);
+      }
+      for (const u of urls) {
+        try {
+          const res = await fetch(u, { method: "HEAD" });
+          if (res.ok) {
+            availableUrlCache.set(cacheKey, u);
+            return u;
+          }
+        } catch (_) {}
+      }
+      availableUrlCache.set(cacheKey, null);
+      return null;
+    }
+
+    function renderUkeDots() {
+      const holder = document.getElementById("strings");
+      holder.querySelectorAll(".dot").forEach((d) => d.remove());
+      const type = document.getElementById("libType").value || "maj";
+      const pat = {
+        "maj": [10, 26, 42, 58],
+        "min": [10, 26],
+        "7": [10, 42, 58],
+        "maj7": [26, 42],
+        "m7": [10, 26, 42],
+        "sus2": [26],
+        "sus4": [42]
+      };
+      const ys = pat[type] || [10, 42];
+      ys.forEach((y, i) => {
+        const dot = document.createElement("div");
+        dot.className = "dot";
+        dot.style.top = `${y - 5}px`;
+        dot.style.left = `${50 + i * 28}px`;
+        holder.appendChild(dot);
+      });
+    }
+
+    async function loadAudioBuffer(url) {
+      if (!audioCtx) return null;
+      if (sampleBufferCache.has(url)) return sampleBufferCache.get(url);
+      try {
+        const res = await fetch(url);
+        if (!res.ok) return null;
+        const ab = await res.arrayBuffer();
+        const buf = await audioCtx.decodeAudioData(ab.slice(0));
+        sampleBufferCache.set(url, buf);
+        return buf;
+      } catch (_) {
+        return null;
+      }
+    }
+
+    function scheduleSampleHit(buffer, at, destination, accent = 1.0, direction = "down", isDedicatedDirectionSample = false) {
+      if (!audioCtx || !buffer) return;
+      const src = audioCtx.createBufferSource();
+      src.buffer = buffer;
+      const gain = audioCtx.createGain();
+      const pan = audioCtx.createStereoPanner ? audioCtx.createStereoPanner() : null;
+      src.playbackRate.value = isDedicatedDirectionSample ? 1.0 : (direction === "up" ? 1.04 : 1.0);
+      gain.gain.value = Math.max(0.01, 0.9 * accent);
+
+      if (pan) {
+        pan.pan.value = isDedicatedDirectionSample ? 0.0 : (direction === "up" ? 0.25 : -0.15);
+        src.connect(gain);
+        gain.connect(pan);
+        pan.connect(destination);
+      } else {
+        src.connect(gain);
+        gain.connect(destination);
+      }
+
+      src.start(at);
+      activeNodes.push({ osc: src, gain, noise: null });
+    }
+
+    function scheduleThumpHit(buffer, at, destination, accent = 1.0) {
+      if (!audioCtx || !buffer) return;
+      const src = audioCtx.createBufferSource();
+      src.buffer = buffer;
+      const gain = audioCtx.createGain();
+      const filter = audioCtx.createBiquadFilter();
+      filter.type = "lowpass";
+      filter.frequency.value = 650;
+      gain.gain.value = Math.max(0.01, Math.min(1.0, 0.6 * accent));
+      src.connect(filter);
+      filter.connect(gain);
+      gain.connect(destination);
+      src.start(at);
+      activeNodes.push({ osc: src, gain, noise: null });
+    }
+
+    async function playLocalLibraryChord(chord, category, direction = "down") {
+      const urls = candidateLibraryUrls(chord, category, direction);
+      const src = await pickFirstAvailable(urls);
+      if (!src) {
+        return null;
+      }
+      return { src };
+    }
+
+    function parseStrumPattern(raw) {
+      const allowed = new Set(["D", "U", "-", "|", "T", "X"]);
+      const clean = (raw || "").toUpperCase().replace(/\s+/g, "");
+      const tokens = [];
+      for (const ch of clean) {
+        if (allowed.has(ch)) tokens.push(ch);
+      }
+      const hasStroke = tokens.some((t) => t === "D" || t === "U" || t === "T" || t === "X");
+      return hasStroke ? tokens : ["D", "D", "D", "U", "D", "U", "|"];
+    }
+
+    function parseChordBars(raw, fallbackChords) {
+      const src = (raw || "").trim();
+      if (!src) {
+        return (fallbackChords || []).map((c) => [c]);
+      }
+      const bars = src
+        .split("|")
+        .map((bar) => bar.trim())
+        .filter(Boolean)
+        .map((bar) => bar.split(/[\s,/]+/).map((s) => s.trim()).filter(Boolean));
+      return bars.length ? bars : (fallbackChords || []).map((c) => [c]);
+    }
+
+    function strokeAccent(step) {
+      if (step <= 0) return 1.0;
+      if (step === 2) return 0.9;
+      if (step % 2 === 0) return 0.84;
+      return 0.72;
+    }
+
+    function patternEventSchedule(tokens, spanSeconds) {
+      const baseStep = spanSeconds / 8; // 8th-note grid
+      let cursor = 0;
+      const events = [];
+      tokens.forEach((t) => {
+        if (t === "|") {
+          cursor += 0.5; // tiny pause/divider
+          return;
+        }
+        if (t === "-") {
+          cursor += 1;
+          return;
+        }
+        const at = cursor * baseStep;
+        events.push({ token: t, at, accent: strokeAccent(Math.floor(cursor)) });
+        cursor += 1;
+      });
+      return events;
+    }
+
+    async function scheduleLocalSampleBar(chordsInBar, category, barStartAudio, barSeconds, destination, thumpBuffer = null, patternTokens = ["D", "D", "D", "U", "D", "U", "|"]) {
+      const barChords = Array.isArray(chordsInBar) && chordsInBar.length ? chordsInBar : ["C"];
+      const segmentSeconds = barSeconds / barChords.length;
+
+      let anyScheduled = false;
+      for (let seg = 0; seg < barChords.length; seg++) {
+        const chord = barChords[seg];
+        const segStart = barStartAudio + seg * segmentSeconds;
+        const foundDown = await playLocalLibraryChord(chord, category, "down");
+        const foundUp = await playLocalLibraryChord(chord, category, "up");
+        if (!foundDown && !foundUp) continue;
+
+        const downBuffer = foundDown ? await loadAudioBuffer(foundDown.src) : null;
+        const upBuffer = foundUp ? await loadAudioBuffer(foundUp.src) : null;
+        if (!downBuffer && !upBuffer) continue;
+
+        const hasDedicatedUp = Boolean(upBuffer);
+        const events = patternEventSchedule(patternTokens, segmentSeconds);
+        events.forEach((evt) => {
+          const when = segStart + evt.at;
+          if (evt.token === "D") {
+            scheduleSampleHit(downBuffer || upBuffer, when, destination, evt.accent, "down", false);
+            anyScheduled = true;
+            return;
+          }
+          if (evt.token === "U") {
+            scheduleSampleHit(upBuffer || downBuffer, when, destination, evt.accent, "up", hasDedicatedUp);
+            anyScheduled = true;
+            return;
+          }
+          if ((evt.token === "T" || evt.token === "X") && thumpBuffer) {
+            scheduleThumpHit(thumpBuffer, when, destination, Math.min(0.95, evt.accent));
+            anyScheduled = true;
+          }
+        });
+      }
+
+      return anyScheduled;
+    }
+
+    function scheduleSynthBar(ctx, destination, chordsInBar, barStart, barSeconds, patternTokens = ["D", "D", "D", "U", "D", "U", "|"]) {
+      const barChords = Array.isArray(chordsInBar) && chordsInBar.length ? chordsInBar : ["C"];
+      const segmentSeconds = barSeconds / barChords.length;
+      for (let seg = 0; seg < barChords.length; seg++) {
+        const chordInfo = parseChord(barChords[seg]);
+        const segStart = barStart + seg * segmentSeconds;
+        const events = patternEventSchedule(patternTokens, segmentSeconds);
+        events.forEach((evt) => {
+          const when = segStart + evt.at;
+          if (evt.token === "D") {
+            scheduleChordStrum(ctx, destination, chordInfo, when, "down", evt.accent);
+            return;
+          }
+          if (evt.token === "U") {
+            scheduleChordStrum(ctx, destination, chordInfo, when, "up", evt.accent);
+            return;
+          }
+          if (evt.token === "T" || evt.token === "X") {
+            scheduleSynthThump(ctx, destination, when, Math.min(0.95, evt.accent));
+          }
+        });
+      }
+    }
+
+    function scheduleSynthThump(ctx, destination, at, accent = 1.0) {
+      if (!ctx) return;
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      const filter = ctx.createBiquadFilter();
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(120, at);
+      osc.frequency.exponentialRampToValueAtTime(70, at + 0.06);
+      filter.type = "lowpass";
+      filter.frequency.value = 500;
+      gain.gain.setValueAtTime(0.0001, at);
+      gain.gain.linearRampToValueAtTime(0.22 * accent, at + 0.006);
+      gain.gain.exponentialRampToValueAtTime(0.0001, at + 0.10);
+      osc.connect(filter);
+      filter.connect(gain);
+      gain.connect(destination);
+      osc.start(at);
+      osc.stop(at + 0.11);
+      activeNodes.push({ osc, gain, noise: null });
+    }
+
+    function scheduleUkulelePluck(ctx, destination, freq, at, duration = 0.2, accent = 1.0) {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      const filter = ctx.createBiquadFilter();
+      const noise = ctx.createBufferSource();
+      const noiseGain = ctx.createGain();
+
+      filter.type = "lowpass";
+      filter.frequency.value = 2400;
+      filter.Q.value = 0.9;
+
+      osc.type = "triangle";
+      osc.frequency.value = freq;
+
+      osc.connect(filter);
+      filter.connect(gain);
+      gain.connect(destination);
+
+      noise.buffer = createNoiseBuffer(ctx);
+      noiseGain.gain.value = 0.0001;
+      noise.connect(noiseGain);
+      noiseGain.connect(destination);
+
+      const t0 = at;
+      const t1 = at + duration;
+      gain.gain.setValueAtTime(0.0001, t0);
+      gain.gain.linearRampToValueAtTime(0.17 * accent, t0 + 0.012);
+      gain.gain.exponentialRampToValueAtTime(0.0001, t1);
+
+      noiseGain.gain.setValueAtTime(0.0001, t0);
+      noiseGain.gain.linearRampToValueAtTime(0.03 * accent, t0 + 0.004);
+      noiseGain.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.05);
+
+      osc.start(t0);
+      osc.stop(t1 + 0.01);
+      noise.start(t0);
+      noise.stop(t0 + 0.06);
+
+      activeNodes.push({ osc, gain, noise });
+    }
+
+    function scheduleChordStrum(ctx, destination, chordInfo, at, direction = "down", accent = 1.0) {
+      const intervals = chordInfo.minor ? [0, 3, 7, 12] : [0, 4, 7, 12];
+      const offsets = direction === "up" ? [0.03, 0.02, 0.01, 0.0] : [0.0, 0.01, 0.02, 0.03];
+      const baseMidi = noteToMidi(chordInfo.root, 3);
+      intervals.forEach((i, idx) => {
+        scheduleUkulelePluck(
+          ctx,
+          destination,
+          midiToFreq(baseMidi + i),
+          at + offsets[idx],
+          0.18,
+          accent
+        );
+      });
+    }
+
+    async function playPreview() {
+      if (!latestArrangement || !latestArrangement.arrangement) {
+        throw new Error("Build arrangement first, then play preview.");
+      }
+      if (isPlaying) {
+        stopPreview();
+        return;
+      }
+
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+
+      const data = latestArrangement.arrangement;
+      const rawBpm = latestArrangement.analysis?.bpm || 90;
+      const bpm = Math.max(65, Math.min(170, Math.round(rawBpm * tempoMultiplier())));
+      const barSeconds = (60 / bpm) * 4;
+      const chords = data.progression || [];
+      const bars = parseChordBars(document.getElementById("customChords").value, chords);
+      const patternTokens = parseStrumPattern(document.getElementById("strumPattern").value);
+      const loopCycles = 4;
+
+      if (!bars.length) {
+        throw new Error("No progression found in arrangement.");
+      }
+
+      isPlaying = true;
+      document.getElementById("play").textContent = "Stop Preview";
+      const wallStart = performance.now() / 1000 + 0.08;
+      const fallbackMaster = audioCtx.createGain();
+      fallbackMaster.gain.value = 0.16;
+      fallbackMaster.connect(audioCtx.destination);
+      activeMaster = fallbackMaster;
+      const thumpBuffer = await loadAudioBuffer(percussionUrl());
+
+      for (let cycle = 0; cycle < loopCycles; cycle++) {
+        bars.forEach((chordsInBar, idx) => {
+          const barStart = wallStart + (cycle * bars.length + idx) * barSeconds;
+          const delay = barStart - performance.now() / 1000;
+          const audioBarStart = audioCtx.currentTime + Math.max(0.01, delay);
+          scheduleLocalSampleBar(chordsInBar, "chords", audioBarStart, barSeconds, fallbackMaster, thumpBuffer, patternTokens).then((ok) => {
+            if (!ok) {
+              scheduleSynthBar(audioCtx, fallbackMaster, chordsInBar, audioBarStart, barSeconds, patternTokens);
+            }
+          });
+        });
+      }
+
+      const total = barSeconds * bars.length * loopCycles + 0.2;
+      setTimeout(() => {
+        if (isPlaying) {
+          stopPreview();
+        }
+      }, total * 1000);
+    }
+
+    function clampGain(v, fallback) {
+      const n = parseFloat(v);
+      if (!Number.isFinite(n)) return fallback;
+      return Math.max(0, Math.min(1, n));
+    }
+
+    function resolveMixBpm() {
+      const scale = parseFloat(document.getElementById("mixTempoScale").value || "1.0");
+      const safeScale = Number.isFinite(scale) ? Math.max(0.5, Math.min(1.5, scale)) : 1.0;
+      const manual = parseFloat(document.getElementById("mixBpm").value || "");
+      if (Number.isFinite(manual)) {
+        return Math.max(30, Math.min(200, Math.round(manual * safeScale)));
+      }
+      const detected = latestArrangement?.analysis?.bpm;
+      if (Number.isFinite(detected)) {
+        return Math.max(30, Math.min(200, Math.round(detected * tempoMultiplier() * safeScale)));
+      }
+      return Math.max(30, Math.min(200, Math.round(96 * safeScale)));
+    }
+
+    function resolveBarFallback() {
+      const fromArrangement = latestArrangement?.arrangement?.progression;
+      if (Array.isArray(fromArrangement) && fromArrangement.length) {
+        return fromArrangement;
+      }
+      return ["C", "G", "Am", "F"];
+    }
+
+    async function decodeSelectedAudioBuffer() {
+      const file = selectedFile();
+      const ab = await file.arrayBuffer();
+      return audioCtx.decodeAudioData(ab.slice(0));
+    }
+
+    async function playUploadedWithUkuleleMix() {
+      if (isPlaying) {
+        stopPreview();
+        return;
+      }
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+
+      const bpm = resolveMixBpm();
+      const barSeconds = (60 / bpm) * 4;
+      const bars = parseChordBars(document.getElementById("customChords").value, resolveBarFallback());
+      const patternTokens = parseStrumPattern(document.getElementById("strumPattern").value);
+      const originalGainValue = clampGain(document.getElementById("origGain").value, 0.62);
+      const ukeGainValue = clampGain(document.getElementById("ukeGain").value, 0.42);
+
+      if (!bars.length) {
+        throw new Error("No chord bars available. Add progression in Chord Progression Override.");
+      }
+
+      const hasSource = hasSelectedFile();
+      const sourceBuffer = hasSource ? await decodeSelectedAudioBuffer() : null;
+      const source = sourceBuffer ? audioCtx.createBufferSource() : null;
+      if (source && sourceBuffer) {
+        source.buffer = sourceBuffer;
+      }
+
+      const originalBus = audioCtx.createGain();
+      originalBus.gain.value = originalGainValue;
+      originalBus.connect(audioCtx.destination);
+
+      const ukeBus = audioCtx.createGain();
+      ukeBus.gain.value = ukeGainValue;
+      ukeBus.connect(audioCtx.destination);
+      activeMaster = ukeBus;
+
+      const mixDest = audioCtx.createMediaStreamDestination();
+      originalBus.connect(mixDest);
+      ukeBus.connect(mixDest);
+
+      mixChunks = [];
+      mixRecorder = createMixRecorder(mixDest.stream);
+      if (!mixRecorder) {
+        throw new Error("Recording not supported in this browser.");
+      }
+      mixRecorder.ondataavailable = (e) => {
+        if (e.data && e.data.size > 0) mixChunks.push(e.data);
+      };
+      mixRecorder.onstop = () => {
+        if (!mixChunks.length) return;
+        const type = mixRecorder.mimeType || "audio/webm";
+        const blob = new Blob(mixChunks, { type });
+        const ext = type.includes("webm") ? "webm" : "audio";
+        setMixOutput(blob, ext);
+      };
+
+      if (source) {
+        source.connect(originalBus);
+      }
+
+      const wallStart = performance.now() / 1000 + 0.08;
+      const audioStart = audioCtx.currentTime + 0.08;
+      const thumpBuffer = await loadAudioBuffer(percussionUrl());
+      const targetDuration = sourceBuffer ? sourceBuffer.duration : Math.max(8, bars.length * barSeconds * 2);
+      const totalBars = Math.max(1, Math.ceil((targetDuration + 0.01) / barSeconds));
+
+      for (let idx = 0; idx < totalBars; idx++) {
+        const chordsInBar = bars[idx % bars.length];
+        const barStart = wallStart + idx * barSeconds;
+        const delay = barStart - performance.now() / 1000;
+        const audioBarStart = audioCtx.currentTime + Math.max(0.01, delay);
+        scheduleLocalSampleBar(chordsInBar, "chords", audioBarStart, barSeconds, ukeBus, thumpBuffer, patternTokens).then((ok) => {
+          if (!ok) {
+            scheduleSynthBar(audioCtx, ukeBus, chordsInBar, audioBarStart, barSeconds, patternTokens);
+          }
+        });
+      }
+
+      if (source) {
+        source.start(audioStart);
+        source.onended = () => {
+          if (mixRecorder && mixRecorder.state !== "inactive") {
+            mixRecorder.stop();
+          }
+        };
+      }
+      mixRecorder.start();
+      setMixStatus(source ? "Generating mix..." : "Generating ukulele-only pattern (no uploaded audio)...");
+      isPlaying = true;
+      document.getElementById("play").textContent = "Stop Preview";
+      document.getElementById("playMix").textContent = "Stop Mix";
+      if (source) {
+        activeNodes.push({ osc: source, gain: originalBus, noise: null });
+      }
+
+      setTimeout(() => {
+        if (!source && mixRecorder && mixRecorder.state !== "inactive") {
+          mixRecorder.stop();
+        }
+        if (isPlaying) {
+          stopPreview();
+        }
+      }, (targetDuration + 0.3) * 1000);
+    }
+
+    async function post(endpoint, withLevel) {
+      const file = selectedFile();
+      const form = new FormData();
+      form.append("file", file);
+      if (withLevel) {
+        form.append("level", level());
+      }
+
+      const res = await fetch(`${apiBase()}${endpoint}`, { method: "POST", body: form });
+      if (!res.ok) {
+        const txt = await res.text();
+        throw new Error(`HTTP ${res.status}: ${txt}`);
+      }
+      return res.json();
+    }
+
+    document.getElementById("analyze").addEventListener("click", async () => {
+      try {
+        out.textContent = "Analyzing...";
+        const data = await post("/api/analyze", false);
+        out.textContent = pretty(data);
+      } catch (e) {
+        out.textContent = String(e.message || e);
+      }
+    });
+
+    document.getElementById("arrange").addEventListener("click", async () => {
+      try {
+        out.textContent = "Building arrangement...";
+        const data = await post("/api/arrange", true);
+        latestArrangement = data;
+        out.textContent = pretty(data);
+      } catch (e) {
+        out.textContent = String(e.message || e);
+      }
+    });
+
+    document.getElementById("lesson").addEventListener("click", async () => {
+      try {
+        out.textContent = "Building lesson plan...";
+        const data = await post("/api/lesson-plan", true);
+        out.textContent = pretty(data);
+      } catch (e) {
+        out.textContent = String(e.message || e);
+      }
+    });
+
+    document.getElementById("play").addEventListener("click", async () => {
+      try {
+        await playPreview();
+      } catch (e) {
+        out.textContent = String(e.message || e);
+      }
+    });
+
+    document.getElementById("playMix").addEventListener("click", async () => {
+      try {
+        await playUploadedWithUkuleleMix();
+      } catch (e) {
+        out.textContent = String(e.message || e);
+      }
+    });
+
+    const mixTempoScale = document.getElementById("mixTempoScale");
+    const mixTempoScaleVal = document.getElementById("mixTempoScaleVal");
+    if (mixTempoScale && mixTempoScaleVal) {
+      const refreshScale = () => {
+        const v = parseFloat(mixTempoScale.value || "1.0");
+        const shown = Number.isFinite(v) ? v.toFixed(2) : "1.00";
+        mixTempoScaleVal.textContent = `${shown}x`;
+      };
+      mixTempoScale.addEventListener("input", refreshScale);
+      refreshScale();
+    }
+
+    const tempoMultEl = document.getElementById("tempoMult");
+    const tempoMultVal = document.getElementById("tempoMultVal");
+    if (tempoMultEl && tempoMultVal) {
+      const refreshTempoMult = () => {
+        const v = parseFloat(tempoMultEl.value || "1.0");
+        tempoMultVal.textContent = `${(Number.isFinite(v) ? v : 1).toFixed(2)}x`;
+      };
+      tempoMultEl.addEventListener("input", refreshTempoMult);
+      refreshTempoMult();
+    }
+
+    const mixBpmEl = document.getElementById("mixBpm");
+    const mixBpmVal = document.getElementById("mixBpmVal");
+    if (mixBpmEl && mixBpmVal) {
+      const refreshMixBpm = () => {
+        const v = parseFloat(mixBpmEl.value || "96");
+        mixBpmVal.textContent = String(Number.isFinite(v) ? Math.round(v) : 96);
+      };
+      mixBpmEl.addEventListener("input", refreshMixBpm);
+      refreshMixBpm();
+    }
+
+    const origGainEl = document.getElementById("origGain");
+    const origGainVal = document.getElementById("origGainVal");
+    if (origGainEl && origGainVal) {
+      const refreshOrigGain = () => {
+        const v = parseFloat(origGainEl.value || "0.62");
+        origGainVal.textContent = (Number.isFinite(v) ? v : 0.62).toFixed(2);
+      };
+      origGainEl.addEventListener("input", refreshOrigGain);
+      refreshOrigGain();
+    }
+
+    const ukeGainEl = document.getElementById("ukeGain");
+    const ukeGainVal = document.getElementById("ukeGainVal");
+    if (ukeGainEl && ukeGainVal) {
+      const refreshUkeGain = () => {
+        const v = parseFloat(ukeGainEl.value || "0.42");
+        ukeGainVal.textContent = (Number.isFinite(v) ? v : 0.42).toFixed(2);
+      };
+      ukeGainEl.addEventListener("input", refreshUkeGain);
+      refreshUkeGain();
+    }
+
+    document.getElementById("libCategory").addEventListener("change", () => {
+      fillLibTypes();
+      renderUkeDots();
+    });
+    document.getElementById("libType").addEventListener("change", renderUkeDots);
+
+    document.getElementById("libCheck").addEventListener("click", async () => {
+      const down = await pickFirstAvailable(libCandidateUrls("down"));
+      const up = await pickFirstAvailable(libCandidateUrls("up"));
+      const downText = down ? `Downstroke ready` : `Downstroke missing`;
+      const upText = up ? `Upstroke ready` : `Upstroke missing`;
+      document.getElementById("libPath").textContent = `${downText} | ${upText}`;
+    });
+
+    async function playLibrary(direction) {
+      const found = await pickFirstAvailable(libCandidateUrls(direction));
+      if (!found) {
+        document.getElementById("libPath").textContent = `${direction === "up" ? "Upstroke" : "Downstroke"} sample not available`;
+        return;
+      }
+      const a = new Audio(found);
+      a.volume = 0.85;
+      a.play().catch((e) => {
+        document.getElementById("libPath").textContent = `Audio playback failed`;
+      });
+      document.getElementById("libPath").textContent = direction === "up" ? "Playing Upstroke" : "Playing Downstroke";
+      renderUkeDots();
+    }
+
+    document.getElementById("libPlayDown").addEventListener("click", async () => {
+      await playLibrary("down");
+    });
+
+    document.getElementById("libPlayUp").addEventListener("click", async () => {
+      await playLibrary("up");
+    });
+
+    fillLibRoots();
+    fillLibTypes();
+    renderUkeDots();
+  </script>
+</body>
+</html>

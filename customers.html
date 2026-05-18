@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Customers | Lemon Tea Aur Ukulele</title>
+  <meta name="description" content="Customer segments and use-cases for Lemon Tea Aur Ukulele." />
+  <style>
+    :root {
+      --bg: #fdf7ec;
+      --card: #fffdf8;
+      --text: #2f2a22;
+      --muted: #6d6355;
+      --accent: #d98b2d;
+      --line: #ead9c1;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Segoe UI", "Trebuchet MS", sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.55;
+    }
+    .wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 18px 42px;
+    }
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(70, 45, 14, 0.06);
+      padding: 18px;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(1.4rem, 3.2vw, 2rem);
+    }
+    .sub {
+      margin: 8px 0 0;
+      color: var(--muted);
+    }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+    .btn {
+      text-decoration: none;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-weight: 700;
+      color: var(--text);
+      background: #fff;
+    }
+    .btn:hover {
+      border-color: var(--accent);
+    }
+    .grid {
+      margin-top: 12px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      background: #fff;
+    }
+    .card h2 {
+      margin: 0;
+      font-size: 1rem;
+    }
+    .card p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    @media (max-width: 760px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="top">
+      <a class="btn" href="./index.html">Back to Main</a>
+      <a class="btn" href="./future-features.html">Future Features</a>
+    </div>
+
+    <section class="panel">
+      <h1>For Customers</h1>
+      <p class="sub">Who benefits most from the product direction.</p>
+
+      <div class="grid">
+        <article class="card">
+          <h2>Singers</h2>
+          <p>Want a quick ukulele-ready backing version of a song without manual arrangement work.</p>
+        </article>
+        <article class="card">
+          <h2>Content Creators</h2>
+          <p>Need simple, fast, and repeatable ukulele versions for shorts, reels, and daily publishing.</p>
+        </article>
+        <article class="card">
+          <h2>Beginners</h2>
+          <p>Prefer basic playable outputs that remove complexity and let them start learning immediately.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
