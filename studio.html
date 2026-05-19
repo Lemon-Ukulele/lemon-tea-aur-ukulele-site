@@ -96,36 +96,36 @@
       font-weight: 700;
     }
     .now-playing {
-      margin-top: 12px;
+      margin-top: 8px;
       border: 1px solid var(--line);
-      border-radius: 12px;
+      border-radius: 8px;
       background: #fff;
-      padding: 12px;
+      padding: 8px;
       display: grid;
       grid-template-columns: 1.2fr 1fr 1fr;
-      gap: 10px;
+      gap: 8px;
       align-items: start;
     }
     .now-card {
       min-width: 0;
     }
     .now-label {
-      margin: 0 0 4px;
+      margin: 0 0 3px;
       color: var(--muted);
-      font-size: 0.78rem;
+      font-size: 0.68rem;
       font-weight: 700;
       text-transform: uppercase;
     }
     .now-value {
       margin: 0;
       color: var(--txt);
-      font-size: 1.18rem;
+      font-size: 0.95rem;
       font-weight: 800;
       overflow-wrap: anywhere;
     }
     .now-value.small {
       font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-      font-size: 0.95rem;
+      font-size: 0.78rem;
       font-weight: 700;
     }
     .tool-box {
@@ -384,20 +384,6 @@
         <audio id="mixResultAudio" controls></audio>
         <a id="mixDownload" class="mix-download" href="#" download="ukulele-mix.webm" style="display:none;">Download Mixed Audio</a>
       </div>
-      <section class="now-playing" aria-label="Now Playing Chord">
-        <div class="now-card">
-          <p class="now-label">Now Playing Chord</p>
-          <p class="now-value" id="nowChord">-</p>
-        </div>
-        <div class="now-card">
-          <p class="now-label">Voicing (G-C-E-A)</p>
-          <p class="now-value small" id="nowVoicing">-</p>
-        </div>
-        <div class="now-card">
-          <p class="now-label">Up Next</p>
-          <p class="now-value small" id="nextChord">-</p>
-        </div>
-      </section>
       <p class="note">This MVP uses heuristic analysis stubs first. Next sprint: swap in Basic Pitch + Essentia/aubio modules.</p>
 
       <section class="library">
@@ -444,6 +430,20 @@
             <div class="uke-body" aria-hidden="true"></div>
           </div>
           <div class="library-path" id="libPath">Ready.</div>
+          <section class="now-playing" aria-label="Now Playing Chord">
+            <div class="now-card">
+              <p class="now-label">Now Playing Chord</p>
+              <p class="now-value" id="nowChord">-</p>
+            </div>
+            <div class="now-card">
+              <p class="now-label">Voicing (G-C-E-A)</p>
+              <p class="now-value small" id="nowVoicing">-</p>
+            </div>
+            <div class="now-card">
+              <p class="now-label">Up Next</p>
+              <p class="now-value small" id="nextChord">-</p>
+            </div>
+          </section>
         </div>
       </section>
       <div class="actions">
