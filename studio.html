@@ -95,6 +95,39 @@
       text-decoration: none;
       font-weight: 700;
     }
+    .now-playing {
+      margin-top: 12px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fff;
+      padding: 12px;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr 1fr;
+      gap: 10px;
+      align-items: start;
+    }
+    .now-card {
+      min-width: 0;
+    }
+    .now-label {
+      margin: 0 0 4px;
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .now-value {
+      margin: 0;
+      color: var(--txt);
+      font-size: 1.18rem;
+      font-weight: 800;
+      overflow-wrap: anywhere;
+    }
+    .now-value.small {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.95rem;
+      font-weight: 700;
+    }
     .tool-box {
       margin-top: 12px;
       border: 1px solid var(--line);
@@ -141,30 +174,92 @@
       padding: 10px;
       background: #fffdf9;
     }
-    .strings {
+    .fretboard-shell {
       position: relative;
-      height: 70px;
+      min-height: 184px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 108px;
+      gap: 0;
+      align-items: center;
+      overflow-x: auto;
+      padding: 8px 0;
+    }
+    .fretboard {
+      position: relative;
+      min-width: 640px;
+      height: 150px;
+      border-left: 7px solid #5d3b1d;
+      background: linear-gradient(90deg, #f7e8d4, #fff8ee);
+    }
+    .uke-body {
+      width: 108px;
+      height: 134px;
+      margin-left: -10px;
+      border: 4px solid #7e542b;
+      border-radius: 48% 42% 42% 48%;
+      background: radial-gradient(circle at 45% 50%, #6d411f 0 12px, #c9853d 13px 38px, #b96f2b 39px 100%);
+      box-shadow: inset 8px 0 18px rgba(255,255,255,0.22);
     }
     .string-line {
       position: absolute;
-      left: 6px;
-      right: 6px;
+      left: 0;
+      right: 0;
       height: 2px;
       background: #8b6d48;
       border-radius: 3px;
     }
-    .string-line:nth-child(1) { top: 10px; }
-    .string-line:nth-child(2) { top: 26px; }
-    .string-line:nth-child(3) { top: 42px; }
-    .string-line:nth-child(4) { top: 58px; }
-    .dot {
+    .string-line.string-g { top: 24px; }
+    .string-line.string-c { top: 58px; }
+    .string-line.string-e { top: 92px; }
+    .string-line.string-a { top: 126px; }
+    .fret-line {
       position: absolute;
-      width: 12px;
-      height: 12px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: #d1b38a;
+    }
+    .fret-point {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      margin: -4px 0 0 -4px;
       border-radius: 50%;
-      background: #cf8429;
-      border: 2px solid #fff;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.18);
+      background: #ead8bd;
+      border: 1px solid #c6a77d;
+    }
+    .fret-point.active {
+      width: 18px;
+      height: 18px;
+      margin: -9px 0 0 -9px;
+      background: var(--accent);
+      border: 3px solid #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.22);
+    }
+    .string-name,
+    .fret-number,
+    .fret-label {
+      position: absolute;
+      color: #6d563a;
+      font-size: 0.72rem;
+      font-weight: 800;
+      line-height: 1;
+      pointer-events: none;
+    }
+    .string-name { left: 8px; transform: translateY(-50%); }
+    .fret-number {
+      right: 8px;
+      transform: translateY(-50%);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      background: rgba(255,253,248,0.86);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 3px 5px;
+    }
+    .fret-label {
+      top: 7px;
+      transform: translateX(-50%);
+      color: #8b704d;
     }
     .library-path {
       margin-top: 8px;
@@ -199,9 +294,12 @@
     }
     @media (max-width: 720px) {
       .row { grid-template-columns: 1fr; }
+      .now-playing { grid-template-columns: 1fr; }
       .library-head { grid-template-columns: 1fr; }
       .uke-frame { justify-self: start; width: 140px; height: 98px; }
       .uke-photo { width: 104px; height: 104px; }
+      .fretboard-shell { grid-template-columns: minmax(620px, 1fr) 96px; }
+      .uke-body { width: 96px; height: 124px; }
     }
   </style>
 </head>
@@ -246,9 +344,6 @@
             <input id="ukeGain" type="range" min="0" max="1" step="0.01" value="0.42" />
           </div>
         </div>
-        <div class="actions">
-          <button id="playMix" class="primary">Generate + Play Mix</button>
-        </div>
       </section>
 
       <section class="tool-box">
@@ -289,6 +384,20 @@
         <audio id="mixResultAudio" controls></audio>
         <a id="mixDownload" class="mix-download" href="#" download="ukulele-mix.webm" style="display:none;">Download Mixed Audio</a>
       </div>
+      <section class="now-playing" aria-label="Now Playing Chord">
+        <div class="now-card">
+          <p class="now-label">Now Playing Chord</p>
+          <p class="now-value" id="nowChord">-</p>
+        </div>
+        <div class="now-card">
+          <p class="now-label">Voicing (G-C-E-A)</p>
+          <p class="now-value small" id="nowVoicing">-</p>
+        </div>
+        <div class="now-card">
+          <p class="now-label">Up Next</p>
+          <p class="now-value small" id="nextChord">-</p>
+        </div>
+      </section>
       <p class="note">This MVP uses heuristic analysis stubs first. Next sprint: swap in Basic Pitch + Essentia/aubio modules.</p>
 
       <section class="library">
@@ -325,15 +434,21 @@
           <button id="libCheck">Check File</button>
         </div>
         <div class="uke-visual">
-          <div class="strings" id="strings">
-            <div class="string-line"></div>
-            <div class="string-line"></div>
-            <div class="string-line"></div>
-            <div class="string-line"></div>
+          <div class="fretboard-shell">
+            <div class="fretboard" id="fretboard">
+              <div class="string-line string-g"></div>
+              <div class="string-line string-c"></div>
+              <div class="string-line string-e"></div>
+              <div class="string-line string-a"></div>
+            </div>
+            <div class="uke-body" aria-hidden="true"></div>
           </div>
           <div class="library-path" id="libPath">Ready.</div>
         </div>
       </section>
+      <div class="actions">
+        <button id="playMix" class="primary">Generate + Play Mix</button>
+      </div>
     </section>
   </main>
 
@@ -355,6 +470,41 @@
     let mixRecorder = null;
     let mixChunks = [];
     let mixBlobUrl = null;
+    let chordTimelineTimer = null;
+    let activeChordTimeline = null;
+    const STRING_NAMES = ["G", "C", "E", "A"];
+    const STRING_Y = [24, 58, 92, 126];
+    const FRET_MIN = 1;
+    const FRET_MAX = 12;
+    const FRET_LEFT = 40;
+    const FRET_STEP = 46;
+    const BUILT_IN_VOICINGS = {
+      "C": "0003", "G": "0232", "D": "2220", "A": "2100", "E": "1402", "B": "4322", "F": "2010",
+      "Am": "2000", "Bm": "4222", "Cm": "0333", "C#m": "1104", "Dm": "2210", "Em": "0432",
+      "F#m": "2120", "Gm": "0231", "G#m": "1342", "Bb": "3211", "Eb": "0331", "Ab": "5343",
+      "Db": "1114", "F#": "3121", "A#m": "1114", "Bbm": "3111", "D#m": "3321", "Ebm": "3321"
+    };
+    const ROOT_TO_LIBRARY = {
+      "C": "C", "C#": "Cs", "Db": "Cs",
+      "D": "D", "D#": "Ds", "Eb": "Ds",
+      "E": "E",
+      "F": "F", "F#": "Fs", "Gb": "Fs",
+      "G": "G", "G#": "Gs", "Ab": "Gs",
+      "A": "A", "A#": "As", "Bb": "As",
+      "B": "B"
+    };
+    const ROOT_CANONICAL = {
+      "CB": "B", "B#": "C", "E#": "F", "FB": "E",
+      "DB": "Db", "D#": "D#", "EB": "Eb", "GB": "Gb", "AB": "Ab", "BB": "Bb"
+    };
+    const VOICING_ALIASES = {
+      "A#": "Bb", "A#m": "Bbm",
+      "D#": "Eb", "D#m": "Ebm",
+      "G#": "Ab", "G#m": "G#m",
+      "C#": "Db", "C#m": "C#m",
+      "Gb": "F#", "Gbm": "F#m",
+      "Db": "Db", "Dbm": "C#m"
+    };
 
     function selectedFile() {
       const input = document.getElementById("file");
@@ -427,13 +577,102 @@
       return 440 * Math.pow(2, (midi - 69) / 12);
     }
 
+    function normalizeChordName(chord) {
+      const raw = String(chord || "").trim();
+      const compact = raw.replace(/\s+/g, "");
+      const match = compact.match(/^([A-Ga-g])([#bBsS]?)(m|min|minor)?/);
+      if (!match) return "C";
+      const letter = match[1].toUpperCase();
+      const accidentalRaw = match[2] || "";
+      const accidental = accidentalRaw === "s" || accidentalRaw === "S" ? "#" : accidentalRaw.toLowerCase() === "b" ? "b" : accidentalRaw;
+      const rootKey = `${letter}${accidental}`.replace("b", "B");
+      const root = ROOT_CANONICAL[rootKey] || `${letter}${accidental}`;
+      const minor = Boolean(match[3]);
+      return `${root}${minor ? "m" : ""}`;
+    }
+
     function parseChord(chord) {
-      const minor = chord.endsWith("m");
-      const core = minor ? chord.slice(0, -1) : chord;
-      return { root: core, minor };
+      const normalized = normalizeChordName(chord);
+      const minor = normalized.endsWith("m");
+      const root = minor ? normalized.slice(0, -1) : normalized;
+      return { root, minor, name: normalized };
+    }
+
+    function arrangementVoicings() {
+      return latestArrangement?.arrangement?.ukulele_voicings || {};
+    }
+
+    function resolveChordVoicing(chord) {
+      const normalized = normalizeChordName(chord);
+      const voicings = arrangementVoicings();
+      const alias = VOICING_ALIASES[normalized];
+      return voicings[normalized] || voicings[chord] || (alias ? voicings[alias] : null) || BUILT_IN_VOICINGS[normalized] || (alias ? BUILT_IN_VOICINGS[alias] : null) || "0000";
+    }
+
+    function formatVoicing(voicing) {
+      return STRING_NAMES.map((s, idx) => `${s}:${String(voicing || "0000")[idx] ?? "0"}`).join(" ");
+    }
+
+    function resetNowPlaying() {
+      document.getElementById("nowChord").textContent = "-";
+      document.getElementById("nowVoicing").textContent = "-";
+      document.getElementById("nextChord").textContent = "-";
+    }
+
+    function setCurrentChord(chord, nextChord = "-") {
+      const normalized = normalizeChordName(chord);
+      const voicing = resolveChordVoicing(normalized);
+      document.getElementById("nowChord").textContent = normalized;
+      document.getElementById("nowVoicing").textContent = formatVoicing(voicing);
+      document.getElementById("nextChord").textContent = nextChord ? normalizeChordName(nextChord) : "-";
+      renderFretboard(normalized, voicing);
+    }
+
+    function stopChordTimeline() {
+      if (chordTimelineTimer) {
+        clearInterval(chordTimelineTimer);
+      }
+      chordTimelineTimer = null;
+      activeChordTimeline = null;
+    }
+
+    function chordAtTimelineIndex(bars, index) {
+      const safeBars = Array.isArray(bars) && bars.length ? bars : [["C"]];
+      const bar = safeBars[index % safeBars.length] || ["C"];
+      const chords = Array.isArray(bar) && bar.length ? bar : ["C"];
+      return chords;
+    }
+
+    function startChordTimeline(bars, barSeconds, totalBars, wallStart) {
+      stopChordTimeline();
+      activeChordTimeline = { bars, barSeconds, totalBars, wallStart };
+      const update = () => {
+        if (!activeChordTimeline || !isPlaying) return;
+        const elapsed = performance.now() / 1000 - wallStart;
+        if (elapsed < 0) return;
+        const absoluteBar = Math.floor(elapsed / barSeconds);
+        if (absoluteBar >= totalBars) {
+          stopChordTimeline();
+          return;
+        }
+        const barElapsed = elapsed - absoluteBar * barSeconds;
+        const chords = chordAtTimelineIndex(bars, absoluteBar);
+        const segmentSeconds = barSeconds / chords.length;
+        const segmentIndex = Math.min(chords.length - 1, Math.max(0, Math.floor(barElapsed / segmentSeconds)));
+        const current = chords[segmentIndex];
+        let next = chords[segmentIndex + 1];
+        if (!next) {
+          const nextBar = absoluteBar + 1;
+          next = nextBar < totalBars ? chordAtTimelineIndex(bars, nextBar)[0] : "-";
+        }
+        setCurrentChord(current, next);
+      };
+      update();
+      chordTimelineTimer = setInterval(update, 120);
     }
 
     function stopPreview() {
+      stopChordTimeline();
       activeNodes.forEach(({ osc, gain, noise }) => {
         try {
           gain.gain.cancelScheduledValues(audioCtx.currentTime);
@@ -456,6 +695,7 @@
       if (mixRecorder && mixRecorder.state !== "inactive") {
         mixRecorder.stop();
       }
+      resetNowPlaying();
     }
 
     function setMixStatus(text) {
@@ -504,17 +744,8 @@
     }
 
     function chordToLibraryBase(chord, category) {
-      const mapRoot = {
-        "C": "C", "C#": "Cs", "Db": "Cs",
-        "D": "D", "D#": "Ds", "Eb": "Ds",
-        "E": "E",
-        "F": "F", "F#": "Fs", "Gb": "Fs",
-        "G": "G", "G#": "Gs", "Ab": "Gs",
-        "A": "A", "A#": "As", "Bb": "As",
-        "B": "B"
-      };
       const parsed = parseChord(chord);
-      const root = mapRoot[parsed.root] || "C";
+      const root = ROOT_TO_LIBRARY[parsed.root] || "C";
       let type = "maj";
       if (parsed.minor) type = "min";
       return `./ukulele_audio/${category}/combinations/${root}/${type}`;
@@ -556,26 +787,52 @@
       return null;
     }
 
-    function renderUkeDots() {
-      const holder = document.getElementById("strings");
-      holder.querySelectorAll(".dot").forEach((d) => d.remove());
+    function currentLibraryChordName() {
+      const root = document.getElementById("libRoot").value || "C";
       const type = document.getElementById("libType").value || "maj";
-      const pat = {
-        "maj": [10, 26, 42, 58],
-        "min": [10, 26],
-        "7": [10, 42, 58],
-        "maj7": [26, 42],
-        "m7": [10, 26, 42],
-        "sus2": [26],
-        "sus4": [42]
-      };
-      const ys = pat[type] || [10, 42];
-      ys.forEach((y, i) => {
-        const dot = document.createElement("div");
-        dot.className = "dot";
-        dot.style.top = `${y - 5}px`;
-        dot.style.left = `${50 + i * 28}px`;
-        holder.appendChild(dot);
+      const displayRoot = root.replace("s", "#");
+      return normalizeChordName(`${displayRoot}${type === "min" ? "m" : ""}`);
+    }
+
+    function renderFretboard(chord = currentLibraryChordName(), voicing = resolveChordVoicing(chord)) {
+      const holder = document.getElementById("fretboard");
+      holder.querySelectorAll(".fret-line,.fret-point,.string-name,.fret-number,.fret-label").forEach((d) => d.remove());
+      for (let fret = FRET_MIN; fret <= FRET_MAX; fret++) {
+        const x = FRET_LEFT + (fret - 1) * FRET_STEP;
+        const line = document.createElement("div");
+        line.className = "fret-line";
+        line.style.left = `${x}px`;
+        holder.appendChild(line);
+
+        const label = document.createElement("div");
+        label.className = "fret-label";
+        label.style.left = `${x + FRET_STEP / 2}px`;
+        label.textContent = String(fret);
+        holder.appendChild(label);
+      }
+
+      STRING_Y.forEach((y, stringIndex) => {
+        const stringLabel = document.createElement("div");
+        stringLabel.className = "string-name";
+        stringLabel.style.top = `${y}px`;
+        stringLabel.textContent = STRING_NAMES[stringIndex];
+        holder.appendChild(stringLabel);
+
+        const fretValue = parseInt(String(voicing || "0000")[stringIndex] || "0", 10);
+        const fretNumber = document.createElement("div");
+        fretNumber.className = "fret-number";
+        fretNumber.style.top = `${y}px`;
+        fretNumber.textContent = Number.isFinite(fretValue) ? String(fretValue) : "0";
+        holder.appendChild(fretNumber);
+
+        for (let fret = FRET_MIN; fret <= FRET_MAX; fret++) {
+          const point = document.createElement("div");
+          point.className = "fret-point";
+          point.style.left = `${FRET_LEFT + (fret - 1) * FRET_STEP + FRET_STEP / 2}px`;
+          point.style.top = `${y}px`;
+          if (fretValue === fret) point.classList.add("active");
+          holder.appendChild(point);
+        }
       });
     }
 
@@ -869,6 +1126,8 @@
       fallbackMaster.connect(audioCtx.destination);
       activeMaster = fallbackMaster;
       const thumpBuffer = await loadAudioBuffer(percussionUrl());
+      const totalBars = loopCycles * bars.length;
+      startChordTimeline(bars, barSeconds, totalBars, wallStart);
 
       for (let cycle = 0; cycle < loopCycles; cycle++) {
         bars.forEach((chordsInBar, idx) => {
@@ -883,7 +1142,7 @@
         });
       }
 
-      const total = barSeconds * bars.length * loopCycles + 0.2;
+      const total = barSeconds * totalBars + 0.2;
       setTimeout(() => {
         if (isPlaying) {
           stopPreview();
@@ -990,6 +1249,7 @@
       const thumpBuffer = await loadAudioBuffer(percussionUrl());
       const targetDuration = sourceBuffer ? sourceBuffer.duration : Math.max(8, bars.length * barSeconds * 2);
       const totalBars = Math.max(1, Math.ceil((targetDuration + 0.01) / barSeconds));
+      startChordTimeline(bars, barSeconds, totalBars, wallStart);
 
       for (let idx = 0; idx < totalBars; idx++) {
         const chordsInBar = bars[idx % bars.length];
@@ -1062,6 +1322,8 @@
         const data = await post("/api/arrange", true);
         latestArrangement = data;
         out.textContent = pretty(data);
+        const firstChord = data.arrangement?.progression?.[0] || "C";
+        setCurrentChord(firstChord, data.arrangement?.progression?.[1] || "-");
       } catch (e) {
         out.textContent = String(e.message || e);
       }
@@ -1151,9 +1413,10 @@
 
     document.getElementById("libCategory").addEventListener("change", () => {
       fillLibTypes();
-      renderUkeDots();
+      renderFretboard();
     });
-    document.getElementById("libType").addEventListener("change", renderUkeDots);
+    document.getElementById("libRoot").addEventListener("change", renderFretboard);
+    document.getElementById("libType").addEventListener("change", renderFretboard);
 
     document.getElementById("libCheck").addEventListener("click", async () => {
       const down = await pickFirstAvailable(libCandidateUrls("down"));
@@ -1175,7 +1438,7 @@
         document.getElementById("libPath").textContent = `Audio playback failed`;
       });
       document.getElementById("libPath").textContent = direction === "up" ? "Playing Upstroke" : "Playing Downstroke";
-      renderUkeDots();
+      setCurrentChord(currentLibraryChordName(), "-");
     }
 
     document.getElementById("libPlayDown").addEventListener("click", async () => {
@@ -1188,7 +1451,8 @@
 
     fillLibRoots();
     fillLibTypes();
-    renderUkeDots();
+    renderFretboard();
+    resetNowPlaying();
   </script>
 </body>
 </html>
