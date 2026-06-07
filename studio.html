@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lemon Tea Aur Ukulele Studio</title>
+  <title>Orange Ukulele Studio</title>
   <style>
     :root {
       --bg: #f9f2e7;
@@ -306,7 +306,7 @@
 <body>
   <main class="wrap">
     <section class="panel">
-      <h1>Lemon Ukulele AI - Stage 1 + 2 MVP</h1>
+      <h1>Orange Ukulele AI - Stage 1 + 2 MVP</h1>
       <p class="sub">Upload a song, get a ukulele draft, and generate Teach Me lesson steps.</p>
 
       <section class="tool-box">
@@ -336,12 +336,12 @@
             <input id="mixTempoScale" type="range" min="0.50" max="1.50" step="0.01" value="1.00" />
           </div>
           <div class="field">
-            <label for="origGain">Original Audio Gain <span id="origGainVal">0.62</span></label>
-            <input id="origGain" type="range" min="0" max="1" step="0.01" value="0.62" />
+            <label for="origGain">Original Audio Gain <span id="origGainVal">0.50</span></label>
+            <input id="origGain" type="range" min="0" max="1.25" step="0.01" value="0.50" />
           </div>
           <div class="field">
-            <label for="ukeGain">Ukulele Pattern Gain <span id="ukeGainVal">0.42</span></label>
-            <input id="ukeGain" type="range" min="0" max="1" step="0.01" value="0.42" />
+            <label for="ukeGain">Ukulele Pattern Gain <span id="ukeGainVal">0.85</span></label>
+            <input id="ukeGain" type="range" min="0" max="2" step="0.01" value="0.85" />
           </div>
         </div>
       </section>
@@ -1122,7 +1122,7 @@
       document.getElementById("play").textContent = "Stop Preview";
       const wallStart = performance.now() / 1000 + 0.08;
       const fallbackMaster = audioCtx.createGain();
-      fallbackMaster.gain.value = 0.16;
+      fallbackMaster.gain.value = 0.35 * currentUkuleleGain();
       fallbackMaster.connect(audioCtx.destination);
       activeMaster = fallbackMaster;
       const thumpBuffer = await loadAudioBuffer(percussionUrl());
@@ -1150,10 +1150,14 @@
       }, total * 1000);
     }
 
-    function clampGain(v, fallback) {
+    function clampGain(v, fallback, max = 1) {
       const n = parseFloat(v);
       if (!Number.isFinite(n)) return fallback;
-      return Math.max(0, Math.min(1, n));
+      return Math.max(0, Math.min(max, n));
+    }
+
+    function currentUkuleleGain() {
+      return clampGain(document.getElementById("ukeGain")?.value, 0.85, 2);
     }
 
     function resolveMixBpm() {
@@ -1197,8 +1201,8 @@
       const barSeconds = (60 / bpm) * 4;
       const bars = parseChordBars(document.getElementById("customChords").value, resolveBarFallback());
       const patternTokens = parseStrumPattern(document.getElementById("strumPattern").value);
-      const originalGainValue = clampGain(document.getElementById("origGain").value, 0.62);
-      const ukeGainValue = clampGain(document.getElementById("ukeGain").value, 0.42);
+      const originalGainValue = clampGain(document.getElementById("origGain").value, 0.50, 1.25);
+      const ukeGainValue = clampGain(document.getElementById("ukeGain").value, 0.85, 2);
 
       if (!bars.length) {
         throw new Error("No chord bars available. Add progression in Chord Progression Override.");
@@ -1393,8 +1397,8 @@
     const origGainVal = document.getElementById("origGainVal");
     if (origGainEl && origGainVal) {
       const refreshOrigGain = () => {
-        const v = parseFloat(origGainEl.value || "0.62");
-        origGainVal.textContent = (Number.isFinite(v) ? v : 0.62).toFixed(2);
+        const v = parseFloat(origGainEl.value || "0.50");
+        origGainVal.textContent = (Number.isFinite(v) ? v : 0.50).toFixed(2);
       };
       origGainEl.addEventListener("input", refreshOrigGain);
       refreshOrigGain();
@@ -1404,8 +1408,8 @@
     const ukeGainVal = document.getElementById("ukeGainVal");
     if (ukeGainEl && ukeGainVal) {
       const refreshUkeGain = () => {
-        const v = parseFloat(ukeGainEl.value || "0.42");
-        ukeGainVal.textContent = (Number.isFinite(v) ? v : 0.42).toFixed(2);
+        const v = parseFloat(ukeGainEl.value || "0.85");
+        ukeGainVal.textContent = (Number.isFinite(v) ? v : 0.85).toFixed(2);
       };
       ukeGainEl.addEventListener("input", refreshUkeGain);
       refreshUkeGain();
@@ -1432,11 +1436,18 @@
         document.getElementById("libPath").textContent = `${direction === "up" ? "Upstroke" : "Downstroke"} sample not available`;
         return;
       }
-      const a = new Audio(found);
-      a.volume = 0.85;
-      a.play().catch((e) => {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      const buffer = await loadAudioBuffer(found);
+      if (!buffer) {
         document.getElementById("libPath").textContent = `Audio playback failed`;
-      });
+        return;
+      }
+      const directBus = audioCtx.createGain();
+      directBus.gain.value = currentUkuleleGain();
+      directBus.connect(audioCtx.destination);
+      scheduleSampleHit(buffer, audioCtx.currentTime + 0.02, directBus, 1, direction, direction === "up");
       document.getElementById("libPath").textContent = direction === "up" ? "Playing Upstroke" : "Playing Downstroke";
       setCurrentChord(currentLibraryChordName(), "-");
     }
